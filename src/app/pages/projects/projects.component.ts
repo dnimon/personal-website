@@ -1,4 +1,19 @@
 import { Component, OnInit } from '@angular/core';
+import ProjectsData from '../../../assets/projects.json';
+
+interface ProjectType {
+  title: string;
+  items: Project[]
+}
+
+interface Project {
+  title: string;
+  subtitle: string;
+  photo: string;
+  photoAlt: string;
+  description: string;
+  points: string[]
+}
 
 @Component({
   selector: 'app-projects',
@@ -7,9 +22,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProjectsComponent implements OnInit {
 
+  Portfolio: ProjectType[] = ProjectsData;
+
   constructor() { }
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void { }
 
 }
