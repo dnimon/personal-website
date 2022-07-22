@@ -1,0 +1,50 @@
+[
+    {
+        "title": "Consulting Projects",
+        "items": [
+            {
+                "title": "Measure & Made",
+                "subtitle": "Personalized online store for women's pants",
+                "photo": "/assets/screenshots/measureandmade.png",
+                "photoAlt": "Screenshot of Measure & Made",
+                "description": "",
+                "points": []
+            },
+            {
+                "title": "Viewplicity",
+                "subtitle": "Social platform with video conferencing",
+                "photo": "/assets/screenshots/viewplicity.png",
+                "photoAlt": "Screenshot of Viewplicity",
+                "description": "Viewplicity is a social media platform, with friends, messaging system, groups and a personal profile that you can edit and add photos to. It has easy to use video conferencing, using your browser, or provided desktop and mobile apps. I built an older version in Flash and PHP, and then recently re-built it in Node, Angular, and WebRTC. I researched the technologies involved and planned how they would interfact with each other.",
+                "points": [
+                    "The new version was built with Angular frontend, Node backend, Postgres database, Ionic Framework for mobile and desktop apps, and OpenVidu server for the video conferencing.",
+                    "I researched to find a WebRTC server, deciding on OpenVidu. I also researched and brainstormed the best way to do the mobile app, deciding on Ionic, due to the ability to share logic with the Angular project, instead of using Xamarin or a native app, which would require additional work.",
+                    "I created a theming engine for the frontend, seperating the logic of the page from how it was presented. This was used so that browser and mobile could share logic but have different user interfaces, bootstrap and angular material for desktop, Ionic Framework for mobile and desktop.",
+                    "I created for video conferencing the ability to have document and video sharing, transmitting only control messages to change state, instead of the frames, along with adding support for screen sharing.",
+                    "I used Ionic Framework to build mobile and desktop apps, using their user interface modules and build process. This way the interface logic was shared and lead to faster development compared to building a native application.",
+                    "For the backend, I helped create an Express JSON API system, with support for running longer running functions, such as sending an email, in an AWS Lambda job system.",
+                    "I helped integrate with ffmpeg for converting the videos into a common format and getting screenshots.",
+                    "I created a Docker Compose environment for all of the services required to run the project. I created EC2 instances, where needed for development and production, and installed Docker and the Docker Compose project environment."
+                ]
+            },
+            {
+                "title": "MentorTek Self-Hosting",
+                "subtitle": "Moved services from AWS to local servers",
+                "photo": "/assets/screenshots/viewplicity.png",
+                "photoAlt": "Screenshot of Viewplicity",
+                "description": "Viewplicity is a social media platform, with friends, messaging system, groups and a personal profile that you can edit and add photos to. It has easy to use video conferencing, using your browser, or provided desktop and mobile apps. I built an older version in Flash and PHP, and then recently re-built it in Node, Angular, and WebRTC. I researched the technologies involved and planned how they would interfact with each other.",
+                "points": [
+                    "The new version was built with Angular frontend, Node backend, Postgres database, Ionic Framework for mobile and desktop apps, and OpenVidu server for the video conferencing.",
+                    "I researched to find a WebRTC server, deciding on OpenVidu. I also researched and brainstormed the best way to do the mobile app, deciding on Ionic, due to the ability to share logic with the Angular project, instead of using Xamarin or a native app, which would require additional work.",
+                    "I created a theming engine for the frontend, seperating the logic of the page from how it was presented. This was used so that browser and mobile could share logic but have different user interfaces, bootstrap and angular material for desktop, Ionic Framework for mobile and desktop.",
+                    "I created for video conferencing the ability to have document and video sharing, transmitting only control messages to change state, instead of the frames, along with adding support for screen sharing.",
+                    "I used Ionic Framework to build mobile and desktop apps, using their user interface modules and build process. This way the interface logic was shared and lead to faster development compared to building a native application.",
+                    "For the backend, I helped create an Express JSON API system, with support for running longer running functions, such as sending an email, in an AWS Lambda job system.",
+                    "I helped integrate with ffmpeg for converting the videos into a common format and getting screenshots.",
+                    "I created a Docker Compose environment for all of the services required to run the project. I created EC2 instances, where needed for development and production, and installed Docker and the Docker Compose project environment."
+                ]
+            }
+        ]
+    }
+    
+]

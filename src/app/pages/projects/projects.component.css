@@ -1,0 +1,13 @@
+.project-header {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+mat-card {
+    height: 100%;
+}
+
+img {
+    height: 20rem;
+    object-fit: contain;
+}

@@ -1,0 +1,150 @@
+<div class="container-fluid mb-3">
+    <div class="row">
+        <div class="col-12 text-center mt-3 mb-1">
+            <div class="project-header">
+                Consulting Projects
+            </div>
+        </div>
+    </div>
+
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-6 col-xl-4 mt-4">
+            <mat-card>
+                <mat-card-header>
+                <mat-card-title>Measure & Made</mat-card-title>
+                <mat-card-subtitle>Personalized online store for women's pants</mat-card-subtitle>
+                </mat-card-header>
+                <img mat-card-image src="/assets/screenshots/measureandmade.png" alt="Screenshot of Measure & Made">
+                <mat-card-content>
+                    <div class="mb-2 ml-3">
+                       Measure & Made is a online store that specializies in women's pants. 
+                    </div>
+                    <ul>
+                        <li></li>
+                    </ul>
+                </mat-card-content>
+            </mat-card>     
+        </div>
+
+        <div class="col-12 col-md-6 col-xl-4 mt-4">
+            <mat-card>
+                <mat-card-header>
+                    <mat-card-title>Viewplicity</mat-card-title>
+                    <mat-card-subtitle>Social platform with video conferencing</mat-card-subtitle>
+                </mat-card-header>
+                <img mat-card-image src="/assets/screenshots/viewplicity.png" alt="Screenshot of Viewplicity">
+                <mat-card-content>
+                    <div class="mb-2 ml-3">
+                       Viewplicity is a social media platform, with friends, messaging system, groups and a personal profile that you can edit and add photos to. It has easy to use video conferencing, using your browser, or provided desktop and mobile apps. I built an older version in Flash and PHP, and then recently re-built it in Node, Angular, and WebRTC. I researched the technologies involved and planned how they would interfact with each other.
+                    </div>
+                    <ul>
+                        <li>The new version built with Angular frontend, Node backend, Postgres database, Ionic Framework for mobile and desktop apps, and OpenVidu server for the video conferencing.</li>
+                        <li>I researched to find a WebRTC server, deciding on OpenVidu. I also researched and brainstormed the best way to do the mobile app, deciding on Ionic, due to the ability to share logic with the Angular project, instead of using Xamarin or a native app, which would require additional work.</li>
+                        <li>I created a theming engine for the frontend, seperating the logic of the page from how it was presented. This was used so that browser and mobile could share logic but have different user interfaces, bootstrap and angular material for desktop, Ionic Framework for mobile and desktop.</li>
+                        <li>I created for video conferencing the ability to have document and video sharing, transmitting only control messages to change state, instead of the frames, along with adding support for screen sharing.</li>
+                        <li>I used Ionic Framework to build mobile and desktop apps, using their user interface modules and build process. This way the interface logic was shared and lead to faster development compared to building a native application.</li>
+                        <li>For the backend, I helped create an Express JSON API system, with support for running longer running functions, such as sending an email, in an AWS Lambda job system.</li>
+                        <li>I helped integrate with ffmpeg for converting the videos into a common format and getting screenshots.</li>
+                        <li>I created a Docker Compose environment for all of the services required to run the project. I created EC2 instances, where needed for development and production, and installed Docker and the Docker Compose project environment.</li>
+                    </ul>
+                </mat-card-content>
+            </mat-card>     
+        </div>
+
+        <div class="col-12 col-md-6 col-xl-4 mt-4">
+            <mat-card>
+                <mat-card-header>
+                    <mat-card-title>MentorTek Self-Hosting</mat-card-title>
+                    <mat-card-subtitle>Moved services from AWS to local servers</mat-card-subtitle>
+                </mat-card-header>
+                <img mat-card-image src="/assets/screenshots/server.jpg" alt="Picture of Servers">
+                <mat-card-content>
+                    <div class="mb-2 ml-3">
+                        Our company was paying for multiple AWS EC2 Instances, so I wanted to work on saving money. To that end, I created a local server cluster. I installed Pfsense on a PC to act as the router and setup docker containers on an Intel NUC and a Raspberry Pi. This helped to learn more about Docker Compose and publishing services hosted locally with Cloudflare.
+                    </div>
+                    <ul>
+                        <li>I installed Pfsense on a PC and setup a Ubiquiti AP for Wi-Fi.</li>
+                        <li>I installed Ubuntu Server on an Intel NUC and a Raspberry Pi, then installed Docker and Portainer for container management.</li>
+                        <li>I created Docker Compose environments for Gitea, Mattermost, Redmine, and KeyCloak, an authorization server. These services were originally on AWS as EC2 instances, without docker.</li>
+                        <li>I setup all of the above services to authenticate with KeyCloak, so that only one login is required.</li>
+                        <li>I setup Cloudflare tunnels to have the services accessible on the internet, without having to expose the IP address.</li>
+                        <li>I setup a backup process that occurs automatically and uploads to an S3 bucket.</li>
+                    </ul>
+                </mat-card-content>
+            </mat-card>
+        </div>
+
+        <div class="col-12 col-md-6 col-xl-4 mt-4">
+            <mat-card>
+                <mat-card-header>
+                <mat-card-title>CardConnect Integration</mat-card-title>
+                <mat-card-subtitle>Interfacing with credit card terminals</mat-card-subtitle>
+                </mat-card-header>
+                <img mat-card-image src="/assets/screenshots/cardconnect.png" alt="Screenshot of CardConnect">
+                <mat-card-content>
+                    <div class="mb-2 ml-3">
+                       todo, c#, .net core, interface, provided documentation and test app
+                    </div>
+                    <ul>
+                        <li></li>
+                    </ul>
+                </mat-card-content>
+            </mat-card>     
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12 text-center mt-3 mb-1">
+            <div class="project-header">
+                Personal Projects
+            </div>
+        </div>
+    </div>
+
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-6 mt-4">
+            <mat-card>
+                <mat-card-header>
+                    <mat-card-title>Luxtorpeda</mat-card-title>
+                    <mat-card-subtitle>Linux app for using source ports with Steam</mat-card-subtitle>
+                </mat-card-header>
+                <img mat-card-image src="/assets/screenshots/luxtorpeda.png" alt="Screenshot of Luxtorpeda">
+                <mat-card-content>
+                    <div class="mb-2 ml-3">
+                        Older games that have been released on steam can include out-of-date binaries which can be difficult to run on newer systems. This project allows for Linux users to download better versions of the application part of the game, using source ports that expand on the original game source code, without having to go through manual steps. I am the maintainer of this open source project, which was forked from an inactive project.
+                    </div>
+                    <ul>
+                        <li>The project includes a user interface and a repository of build scripts for the various ports.</li>
+                        <li>The user interface is built in rust, which shows the user the available ports, then automatically downloads the latest version, configures, and launches it.</li>
+                        <li>I created bash scripts for building the ports. These scripts handle downloading the source code from git repositories, building & configuring any depedencies, then configuring build tools, such as CMake or make, to build the port.</li>
+                        <li>I created GitHub CI Actions to automatically build the UI and port projects when a pull request or commit is pushed. The CI process will then create GitHub releases for storing the build artifact.</li>
+                        <li>I handled issues and pull requests from users of the project.</li>
+                        <li>The latest version of the application has been downloaded over 2000 times.</li>
+                        <li>I contributed a pull request to the egui project for a new feature, responding to feedback and getting it approved and merged. I contributed additional pull requests to a game engine project, to improve the handling of the window and mouse on Linux.</li>
+                    </ul>
+                </mat-card-content>
+            </mat-card>     
+        </div> 
+
+        <div class="col-12 col-md-6 mt-4">
+            <mat-card>
+                <mat-card-header>
+                    <mat-card-title>Tower Defense</mat-card-title>
+                    <mat-card-subtitle>Tower defense game built with Godot</mat-card-subtitle>
+                </mat-card-header>
+                <img mat-card-image src="/assets/screenshots/td.png" alt="Screenshot of Tower Defense">
+                <mat-card-content>
+                    <div class="mb-2 ml-3">
+                        I built this game to learn about the Godot game engine. I used open source assets and followed tutorials on how to use Godot, then expanded on the features.
+                    </div>
+                    <ul>
+                        <li>The game logic is written in GDScript, which looks similar in syntax to Python. I learned about signals, modifying and creating UI elements, and modifying and creating game objects.</li>
+                        <li>I added features to the game so that the settings of the objects in the game, like the turrets and enemies, can be customized in-game with an editor.</li>
+                        <li>I added music that changes based on if idle or in a wave, and then added sound effects for button clicks, explosions, etc.</li>
+                        <li>I added an additional laser turret, and a missile turret with fired missiles, which helped me to learn physics objects.</li>
+                    </ul>
+                </mat-card-content>
+            </mat-card>     
+        </div>
+    </div>
+</div>
