@@ -8,14 +8,15 @@
             </div>
         </div>
         
-        <div class="row justify-content-center">
+        <div class="row">
             <div class="col-12 col-md-6 col-xl-4 mt-4" *ngFor="let project of projectCategory.items">
                 <mat-card>
                     <mat-card-header>
                     <mat-card-title>{{ project.title }}</mat-card-title>
                     <mat-card-subtitle>{{ project.subtitle }}</mat-card-subtitle>
                     </mat-card-header>
-                    <img mat-card-image [src]="project.photo" [alt]="project.photoAlt">
+                    <img *ngIf="!project.noPhoto" mat-card-image [src]="project.photo" [alt]="project.photoAlt">
+                    <div *ngIf="project.noPhoto" class='no-img' mat-card-image></div>
                     <mat-card-content>
                         <div class="mb-2 ml-3">
                             {{ project.description }}

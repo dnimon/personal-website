@@ -7,13 +7,15 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './elements/header/header.component';
 import { ProjectsComponent } from './pages/projects/projects.component';
 import {MatCardModule} from '@angular/material/card'; 
-import {MatButtonModule} from '@angular/material/button'; 
+import {MatButtonModule} from '@angular/material/button';
+import { LandingComponent } from './pages/landing/landing.component'; 
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    LandingComponent
   ],
   imports: [
     BrowserModule,

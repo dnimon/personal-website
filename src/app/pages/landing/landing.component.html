@@ -1,0 +1,34 @@
+<div class="container-fluid mb-3">
+    <ng-container *ngFor="let technology of Landing.technologies">
+        <div class="row">
+            <div class="col-12 text-center mt-3 mb-1">
+                <div class="tech-header">
+                    {{ technology.title }}
+                </div>
+            </div>
+        </div>
+        
+        <div class="row mb-4">
+            <div class="col-12 col-md-6 col-xl-4 mt-4" *ngFor="let item of technology.items">
+                <mat-card class="d-flex align-items-center">
+                    <mat-card-header>
+                    <mat-card-title>{{ item.title }}</mat-card-title>
+                    <mat-card-subtitle>{{ item.subtitle}}</mat-card-subtitle>
+                    </mat-card-header>
+                    <img *ngIf="!item.noPhoto && item.photo" mat-card-image [src]="item.photo" [alt]="item.photoAlt">
+                    <div *ngIf="item.noPhoto" class='no-img' mat-card-image></div>
+                    <mat-card-content>
+                        <div class="mb-2 ml-3" *ngIf="item.description">
+                            {{ item.description }}
+                        </div>
+                        <ul *ngIf="item.points">
+                            <li *ngFor="let point of item.points">
+                                {{ point }}
+                            </li>
+                        </ul>
+                    </mat-card-content>
+                </mat-card>     
+            </div>
+        </div>
+    </ng-container>
+</div>

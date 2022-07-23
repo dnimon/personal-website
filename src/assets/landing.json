@@ -1,0 +1,164 @@
+{
+    "coverLetter": {
+
+    },
+    "technologies": [
+        {
+            "title": "Frameworks",
+            "items": [
+                {
+                    "title": "Angular with Router, Material, and Bootstrap"
+                },
+                {
+                    "title": "Node with Express & Mocha for Creating Tests"
+                },
+                {
+                    "title": "Docker with Docker Compose"
+                },
+                {
+                    "title": "Ionic Framework with Capacitor"
+                },
+                {
+                    "title": "Laravel"
+                },
+                {
+                    "title": "Python Flask with SQLAlchemy"
+                },
+                {
+                    "title": "React with React Router and Bootstrap"
+                },
+                {
+                    "title": "Xamarin Android & Xamarin iOS"
+                },
+                {
+                    "title": "Meteor"
+                },
+                {
+                    "title": "Wordpress"
+                }
+            ]
+        },
+        {
+            "title": "Services Used",
+            "items": [
+                {
+                    "title": "AWS - EC2, S3, Lamdba, CloudWatch, VPC, RDS, Mechanical Turk, Elemental MediaConvert"
+                },
+                {
+                    "title": "Shopify"
+                },
+                {
+                    "title": "Heroku"
+                },
+                {
+                    "title": "MongoDB Atlas"
+                },
+                {
+                    "title": "Sendgrid"
+                },
+                {
+                    "title": "Twilio - Text Messaging, Calls, Video Conferencing"
+                },
+                {
+                    "title": "Laravel"
+                },
+                {
+                    "title": "Firebase Cloud Messaging"
+                },
+                {
+                    "title": "Azure Notification Hubs"
+                },
+                {
+                    "title": "Klaviyo"
+                },
+                {
+                    "title": "Stripe"
+                },
+                {
+                    "title": "Paypal"
+                }
+            ]
+        },
+        {
+            "title": "Languages",
+            "items": [
+                {
+                    "title": "Javascript (Node & Browser-based)"
+                },
+                {
+                    "title": "PHP"
+                },
+                {
+                    "title": "Python"
+                },
+                {
+                    "title": "C#"
+                },
+                {
+                    "title": "Java"
+                },
+                {
+                    "title": "Rust"
+                },
+                {
+                    "title": "C++"
+                },
+                {
+                    "title": "C"
+                },
+                {
+                    "title": "Objective-C"
+                },
+                {
+                    "title": "Swift"
+                }
+            ]
+        },
+        {
+            "title": "Databases",
+            "items": [
+                {
+                    "title": "Postgres"
+                },
+                {
+                    "title": "MySQL"
+                },
+                {
+                    "title": "MongoDB"
+                }
+            ]
+        },
+        {
+            "title": "Additional Experience",
+            "items": [
+                {
+                    "title": "Setting up AWS Instances with Ubuntu, installing packages or Docker environments, and maintenance."
+                },
+                {
+                    "title": "Setting up physical systems with Ubuntu server."
+                },
+                {
+                    "title": "Setting up and managing databases, including Postgres, MySQL, and MongoDB on Linux servers."
+                },
+                {
+                    "title": "Using Windows, OS X, and Linux in a GUI environment. Using Windows Command Line & PowerShell, OS X Terminal, and Linux Terminal."
+                },
+                {
+                    "title": "Developing and setting up interfaces between client code and 3rd party services."
+                },
+                {
+                    "title": "E-commerce payments using Stripe or Paypal integrations."
+                },
+                {
+                    "title": "Using project tracking tools such as JIRA or Redmine, creating issues and keeping track of progress."
+                },
+                {
+                    "title": "Using git command line and GUI tools, such as Sublime Merge or Sourcetree. Created, managed, and reviewed Github pull requests."
+                },
+                {
+                    "title": "Using diagram tools such as Lucidchart to supplement technical documentation."
+                }
+            ]
+        }
+    ]
+}

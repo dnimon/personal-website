@@ -1,4 +1,4 @@
-.project-header {
+.tech-header {
     font-size: 2rem;
     font-weight: 600;
 }
@@ -10,4 +10,8 @@ mat-card {
 img, .no-img {
     height: 20rem;
     object-fit: contain;
+}
+
+.mat-card-title {
+    font-size: 16px;
 }

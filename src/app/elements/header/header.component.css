@@ -1,0 +1,13 @@
+@media (min-width: 992px) {
+    .nav-item, .navbar-brand {
+        font-size: 2rem;
+    }
+
+    .navbar-brand {
+        position: absolute;
+    }
+}
+
+.navbar {
+    background-color: #914747 !important;
+}

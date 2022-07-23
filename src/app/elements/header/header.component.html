@@ -1,16 +1,28 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">David Nimon</a>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow mb-4">
+    <a class="navbar-brand" [routerLink]="['/']">David Nimon</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
   
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      <ul class="navbar-nav ml-auto mr-auto">
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            [routerLinkActive]="['active']"
+            [routerLinkActiveOptions]="{exact:true}"
+            [routerLink]="['/']">
+            Home
+          </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" [routerLink]="['/portfolio']">Portfolio</a>
+          <a
+            class="nav-link"
+            [routerLinkActive]="['active']"
+            [routerLinkActiveOptions]="{exact:true}"
+            [routerLink]="['/portfolio']">
+            Portfolio
+          </a>
         </li>
       </ul>      
     </div>
