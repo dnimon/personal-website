@@ -2,14 +2,14 @@
     <ng-container *ngFor="let technology of Landing.technologies">
         <div class="row">
             <div class="col-12 text-center mt-3 mb-1">
-                <div class="tech-header">
+                <div class="header">
                     {{ technology.title }}
                 </div>
             </div>
         </div>
         
-        <div class="row mb-4">
-            <div class="col-12 col-md-6 col-xl-4 mt-4" *ngFor="let item of technology.items">
+        <div class="row mb-4 tech-row">
+            <div class="card-item col-12 col-md-6 col-xl-4 mt-4" *ngFor="let item of technology.items">
                 <mat-card class="d-flex align-items-center">
                     <mat-card-header>
                     <mat-card-title>{{ item.title }}</mat-card-title>

@@ -1,8 +1,3 @@
-.project-header {
-    font-size: 2rem;
-    font-weight: 600;
-}
-
 mat-card {
     height: 100%;
 }
@@ -10,4 +5,21 @@ mat-card {
 img, .no-img {
     height: 20rem;
     object-fit: contain;
+}
+
+@media print {
+    .card-item {
+        width: 100% !important;
+        max-width: 100% !important;
+        flex: 0 0 100%;
+    }
+
+    .row {
+        display: block !important;
+    }
+
+    .card-item {
+        display: block !important;
+        page-break-after: always;
+    }
 }

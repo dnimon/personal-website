@@ -4,8 +4,8 @@ import { LandingComponent } from './pages/landing/landing.component';
 import { ProjectsComponent } from './pages/projects/projects.component';
 
 const routes: Routes = [
-  { path: 'portfolio', component: ProjectsComponent },
-  { path: '**', component: LandingComponent }
+  { path: 'portfolio', component: ProjectsComponent, data: {title: 'David Nimon - Portfolio' } },
+  { path: '**', component: LandingComponent, data: {title: 'David Nimon' } }
 ];
 
 @NgModule({
