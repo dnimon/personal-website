@@ -9,9 +9,6 @@ interface ProjectType {
 interface Project {
   title: string;
   subtitle: string;
-  photo?: string;
-  photoAlt?: string;
-  noPhoto?: boolean;
   description: string;
   points: string[]
 }

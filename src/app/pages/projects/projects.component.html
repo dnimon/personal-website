@@ -15,8 +15,6 @@
                     <mat-card-title>{{ project.title }}</mat-card-title>
                     <mat-card-subtitle>{{ project.subtitle }}</mat-card-subtitle>
                     </mat-card-header>
-                    <img *ngIf="!project.noPhoto" mat-card-image [src]="project.photo" [alt]="project.photoAlt">
-                    <div *ngIf="project.noPhoto" class='no-img' mat-card-image></div>
                     <mat-card-content>
                         <div class="mb-2 ml-3">
                             {{ project.description }}

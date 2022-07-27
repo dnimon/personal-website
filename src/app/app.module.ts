@@ -8,21 +8,25 @@ import { HeaderComponent } from './elements/header/header.component';
 import { ProjectsComponent } from './pages/projects/projects.component';
 import {MatCardModule} from '@angular/material/card'; 
 import {MatButtonModule} from '@angular/material/button';
-import { LandingComponent } from './pages/landing/landing.component'; 
+import { LandingComponent } from './pages/landing/landing.component';
+import { ResumeComponent } from './pages/resume/resume.component'; 
+import { PdfJsViewerModule } from 'ng2-pdfjs-viewer';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     ProjectsComponent,
-    LandingComponent
+    LandingComponent,
+    ResumeComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatCardModule,
-    MatButtonModule
+    MatButtonModule,
+    PdfJsViewerModule
   ],
   providers: [],
   bootstrap: [AppComponent]

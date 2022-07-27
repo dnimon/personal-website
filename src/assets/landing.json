@@ -1,6 +1,8 @@
 {
     "coverLetter": {
-
+        "title": "Principal Software Engineer",
+        "subtitle": "",
+        "summary": "Technology innovator with over 10 years experience, developing a unique set of skills combining leadership, architecture, design, and implementation. Acquired deep experience via a dozen projects in the various disciplines required to conceive, build, deploy, and maintain solutions requiring combinations of cloud, mobile, and embedded architectures."
     },
     "technologies": [
         {
@@ -29,6 +31,9 @@
                 },
                 {
                     "title": "Xamarin Android & Xamarin iOS"
+                },
+                {
+                    "title": ".NET & .NET Core"
                 },
                 {
                     "title": "Meteor"
@@ -132,31 +137,31 @@
             "title": "Additional Experience",
             "items": [
                 {
-                    "title": "Setting up AWS Instances with Ubuntu, installing packages or Docker environments, and maintenance."
+                    "title": "Setting up AWS Instances with Ubuntu, installing packages or Docker environments, and maintenance"
                 },
                 {
-                    "title": "Setting up physical systems with Ubuntu server."
+                    "title": "Setting up physical systems with Ubuntu server"
                 },
                 {
-                    "title": "Setting up and managing databases, including Postgres, MySQL, and MongoDB on Linux servers."
+                    "title": "Setting up and managing databases, including Postgres, MySQL, and MongoDB on Linux servers"
                 },
                 {
-                    "title": "Using Windows, OS X, and Linux in a GUI environment. Using Windows Command Line & PowerShell, OS X Terminal, and Linux Terminal."
+                    "title": "Using Windows, OS X, and Linux in a GUI environment. Using Windows Command Line & PowerShell, OS X Terminal, and Linux Terminal"
                 },
                 {
-                    "title": "Developing and setting up interfaces between client code and 3rd party services."
+                    "title": "Developing and setting up interfaces between client code and 3rd party services"
                 },
                 {
-                    "title": "E-commerce payments using Stripe or Paypal integrations."
+                    "title": "E-commerce payment gateway integrations including Stripe, Paypal, CardConnect, Authorize.Net"
                 },
                 {
-                    "title": "Using project tracking tools such as JIRA or Redmine, creating issues and keeping track of progress."
+                    "title": "Using project tracking tools such as JIRA amd Redmine, creating issues and keeping track of progress"
                 },
                 {
-                    "title": "Using git command line and GUI tools, such as Sublime Merge or Sourcetree. Created, managed, and reviewed Github pull requests."
+                    "title": "Using git command line and GUI tools, such as Sublime Merge or Sourcetree. Created, managed, and reviewed Github pull requests"
                 },
                 {
-                    "title": "Using diagram tools such as Lucidchart to supplement technical documentation."
+                    "title": "Using diagram tools such as Lucidchart to supplement technical documentation with UML, structure/database diagrams, etc."
                 }
             ]
         }

@@ -2,11 +2,6 @@ mat-card {
     height: 100%;
 }
 
-img, .no-img {
-    height: 20rem;
-    object-fit: contain;
-}
-
 @media print {
     .card-item {
         width: 100% !important;

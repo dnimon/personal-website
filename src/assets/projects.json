@@ -1,226 +1,213 @@
-[
-    {
-        "title": "Consulting Projects",
-        "items": [
-            {
-                "title": "Measure & Made",
-                "subtitle": "Personalized online store for women's pants",
-                "photo": "/assets/screenshots/measureandmade.png",
-                "photoAlt": "Screenshot of Measure & Made",
-                "description": "Measure & Made is a online store specializing in women's pants. A major feature of the store is a quiz that the customer takes that determines their size and shape for ordering product. I help maintain an existing Shopify 1.0 store and have been working on a new Shopify 2.0 version of the store.",
-                "points": [
-                    "I built and maintain the PHP backend for the quiz. The quiz results are stored in an MySQL database, currently with over two million records.",
-                    "I built a new version of the quiz that integrates with a photo taking service to get accurate measurements. Once the service calculates the measurements, the quiz saves the values and stores the photos in an AWS S3 bucket. I also built a new user interface using bootstrap and HTML to present a step-by-step wizard for the questions with validation before moving to the next step.",
-                    "I built an integration to the new quiz with Amazon Mechanical Turk, to gather more data from the quiz responses. When a worker on Turk accepts the job, they see a QR code on their screen to scan with their phone and follow the quiz instructions. Once they complete the quiz, the worker can then submit the job.",
-                    "The client has many requests for improvements or fixes to the existing Shopify 1.0 store, which was built before I was involved in the project and have now taken over development on. I researched the theme code and found options for the changes, which I presented to the client. Once the client approved a change, I worked with them to implement and test the change before pushing the change to production",
-                    "I improved the integration of the marketing service Klaviyo, to help streamline the process of sending emails when a quiz was taken and to track more data about the customer for future emails.",
-                    "When there were bugs with the static content portion of the site, which was managed apart from Shopify, I researched the issues and proposed solutions to the team involved.",
-                    "I looked into the possibility of using a headless CMS with headless Shopify for a more customizable experience, along with moving to Shopify 2.0. I recommended that Shopify 2.0 be used, due to pre-built themes being available and apps working out of the box."
-                ]
-            },
-            {
-                "title": "Viewplicity",
-                "subtitle": "Social platform with video conferencing",
-                "photo": "/assets/screenshots/viewplicity.png",
-                "photoAlt": "Screenshot of Viewplicity",
-                "description": "Viewplicity is a social media platform, with friends, messaging system, groups and a personal profile that you can edit and add photos to. It has easy to use video conferencing, using your browser, or provided desktop and mobile apps. I built an older version in Flash and PHP, and then recently re-built it in Node, Angular, and WebRTC. I researched the technologies involved and planned how they would interfact with each other.",
-                "points": [
-                    "The new version was built with Angular frontend, Node backend, Postgres database, Ionic Framework for mobile and desktop apps, and OpenVidu server for the video conferencing.",
-                    "I researched to find a WebRTC server, deciding on OpenVidu. I also researched and brainstormed the best way to do the mobile app, deciding on Ionic, due to the ability to share logic with the Angular project, instead of using Xamarin or a native app, which would require additional work.",
-                    "I created a theming engine for the frontend, seperating the logic of the page from how it was presented. This was used so that browser and mobile could share logic but have different user interfaces, bootstrap and angular material for desktop, Ionic Framework for mobile and desktop.",
-                    "I created for video conferencing the ability to have document and video sharing, transmitting only control messages to change state, instead of the frames, along with adding support for screen sharing.",
-                    "I used Ionic Framework to build mobile and desktop apps, using their user interface modules and build process. This way the interface logic was shared and lead to faster development compared to building a native application.",
-                    "For the mobile and desktop apps, I added the ability to click on a link in a browser that would take them to the app, to join into a conference.",
-                    "For the backend, I helped create an Express JSON API system, with support for running longer running functions, such as sending an email, in an AWS Lambda job system.",
-                    "I helped integrate with ffmpeg for converting the videos into a common format and getting screenshots. I implemented the code to store the results into an S3 bucket.",
-                    "I created a Docker Compose environment for all of the services required to run the project. I created EC2 instances, where needed for development and production, and installed Docker and the Docker Compose project environment."
-                ]
-            },
-            {
-                "title": "MentorTek Self-Hosting",
-                "subtitle": "Moving services from AWS to local servers",
-                "photo": "/assets/screenshots/server.jpg",
-                "photoAlt": "Picture of Servers",
-                "description": "Our company was charged for multiple AWS EC2 Instances, so I wanted to work on saving money. To that end, I created a local server cluster. I installed Pfsense on a PC to act as the router and setup docker containers on an Intel NUC and a Raspberry Pi. This helped to learn more about Docker Compose and publishing services hosted locally with Cloudflare.",
-                "points": [
-                    "I installed Pfsense on a PC and setup a Ubiquiti AP for Wi-Fi.",
-                    "I installed Ubuntu Server on an Intel NUC and a Raspberry Pi, then installed Docker and Portainer for container management.",
-                    "I created Docker Compose environments for Gitea, Mattermost, Redmine, and KeyCloak, an authorization server. These services were originally on AWS as EC2 instances, without docker.",
-                    "I setup all of the above services to authenticate with KeyCloak, so that only one login is required.",
-                    "I setup Cloudflare tunnels to have the services accessible on the internet, without having to expose the IP address.",
-                    "I setup a backup process that occurs automatically and uploads to an S3 bucket."
-                ]
-            },
-            {
-                "title": "VitalTech",
-                "subtitle": "Remote patient monitoring",
-                "photo": "/assets/screenshots/vitaltech.png",
-                "photoAlt": "Screenshot of VitalTech",
-                "description": "VitalTech is a health company in the remote patient monitoring space, with integrations with various bluetooth devices to track vitals.",
-                "points": [
-                    "I was part of a team of in-house developers within the company, communicating with them and stakeholders, product managers and the management team. I went into the client's office almost every day. I kept track of issues and reports through JIRA, and used Github pull requests to review other developer's code and push my own. I mainly was involved in the backend and frontend, and built a c++ based program for a bluetooth hub.",
-                    "The backend usesNode & Express, with a database in MongoDB Atlas. The frontend uses Angular with Bootstrap and Angular Material components.",
-                    "I helped build the initial framework for the backend portion of the project. I helped code both the Node backend and Angular front-end, using provided tickets and UX design documents.",
-                    "I worked with the product team to assess the functionality that was requested and created requirements documents with diagrams describing the technical needs based on the requests. I also worked with the app developers together with the rest of the website developers to build APIs that could be easily used for all parties.",
-                    "I used Github pull requests for my own code review, along with reviewing other's code. I created a pull request template with a checklist, to help remind developers to create test cases, run them, and verify all the functionality that was requested in the ticket was covered.",
-                    "I worked with an outsourced overseas development team, along with the in-house team, to give requirements and clarification, answer questions, and review code.",
-                    "I designed and built a job queuing system using Node forks and RabbitMQ to store the jobs, so that longer running functions, such as sending push notifications, would not slow down the APIs.",
-                    "I built a validation system so that all the API validations could be maintained inside one Javascript file.",
-                    "I integrated with Twilio for sending text messages and/or automated calls when an alert had occured, along with helping create video conferencing through Twilio. I built a system for inviting a 3rd doctor to a two way video call, between a doctor and a patient, where a push notification was sent to the browser for them to accept the call.",
-                    "I designed and built a set of APIs that could be used by clients to get information about their customers on the platform, such as the vital measurements.",
-                    "I helped build a system for automated tests of the backend, using Mocha and a in-memory MongoDB server, for a in memory database. I used this to create Github CI Actions, so that when a pull request was created or changed, the automated tests would run to help ensure no new issues.",
-                    "I helped build a program to run on a Linux-based bluetooth hub, using c++. I integrated a MQTT client and made the necessary changes to the CMake build files to make it usable on the hub. I expanded on an interface to connect to and read from bluetooth devices. I built an interface on the portal to allow customer support to configure and manage the bluetooth hubs.",
-                    "I managed the Heroku servers that were used for production and staging, being part of the group that pushed updates to production after hours.",
-                    "I integrated with multiple health systems, using solutions including Xealth and Redox. I communicated with the health systems team to provide support and responding to feedback, serving the main developer contact. I implemented processes to send vital measurements to the health systems, as well as creating a system for single sign on to the doctor portal."
-                ]
-            },
-            {
-                "title": "ERP Application",
-                "subtitle": "Completely web-based ERP application",
-                "noPhoto": true,
-                "description": "The ERP application was built to be completely web-based and be user friendly, as an alternative to the older systems available on the market. It interfaced to multiple devices, including printers and scanners.",
-                "points": [
-                    "I researched the best technology stack to use for the project, for the frontend, backend, and database. I decided to use Angular for the frontend, Node & Express for the backend, and Postgres for the database. I would later use this stack for other applications.",
-                    "I created a base environment as a starting point for the project and helped the team get acclimated to using it.",
-                    "For the frontend, I built generic widgets using Angular components, where all of the UI elements were expressed in a JSON format, instead of being written in HTML. Logic for buttons, including API calls or switching screens, or what to show on a table, were expressed in this JSON format.",
-                    "I built the starting point of an editor for the JSON files, allowing someone with no technical knowledge to build a custom table view page.",
-                    "I built a docker environment for the frontend and backend to run on, including interfacing USB devices through the docker interface, using privileged mode, to allow the backend to access the devices and deal with hotplugging. This would then be run on Intel NUCs, which I helped setup.",
-                    "I needed to interface with multiple devices, so I created a TypeScript-based class structure for each device to abstract the necessary commands.",
-                    "I interfaced with a label printer, installing the drivers into the docker environment, and then creating an interface to list, manage, and print to the requested printer. I researched existing Linux commands for managing printers, deciding on lp. I then added this to the node backend so that when a user wanted to manage printers or print a document, an API call would occur that would use this interface.",
-                    "I interfaced with a document scanner, researching the scanner drivers for Linux and installing them in Docker, and researching existing Linux applications for scanning and getting images back, deciding on scanimage. I received the scanned images after a scan request, then converted them to a PDF and saved the PDF to a Minio bucket, which allows for using the S3 Interface with an offline server.",
-                    "I built a report generation tool, using the JSON-based web format to create a report page, and then using the puppeteer tool to create a PDF from that webpage. This allowed for reports to be requested and generated from the same UI and logic that the website would use.",
-                    "I interfaced with network-based cash drawers, implementing a configuration system to add a new cash drawer, and then implemented functions to open and check the status of the cash drawer.",
-                    "I helped create a Postgres migration builder, using models built in Node to create migrations, so that the migrations did not need to be built by hand."
-                ]
-            },
-            {
-                "title": "CardConnect Integration",
-                "subtitle": "Interfacing with credit card terminals",
-                "noPhoto": true,
-                "photoBk": "/assets/screenshots/cardconnect.png",
-                "photoAlt": "Screenshot of CardConnect",
-                "description": "The client had a Point of Sales system without an integration with the CardConnect terminals. I built a socket-based C# applicatin to communicate with the Point of Sale System and the CardConnect API.",
-                "points": [
-                    "The application was built with C# using .NET Core. The POS system would transmit a request over the socket to take a credit card, and that would trigger the CardConnect interface. The CardConnect interfaced with REST API calls, into two different servers.",
-                    "I created a socket interface with a combination of a message header, including a control character and the message length, and a hash of the payload to ensure that the incoming message is coming from a verified source and that all the data has been received. The payload uses JSON, then an ending character is used to denote the end of the message.",
-                    "I used object-oriented programming concepts to create a base class for communicating with REST APIs, and had two implementations, one for each of the servers involved. The implementations abstracted the API calls away from the rest of the code, to limit the knowledge of the APIs to those classes.",
-                    "I provided a JSON-based configuration system, to allow the user of the application to run multiple instances for more than one credit card terminal, providing the credentials for the correct terminal.",
-                    "One of the features of the terminal was to accept signatures. I implemented an interface to receive the compressed signature images from the API and then store them in a directory requested by the client.",
-                    "I built a PowerShell script that compiles and packages the application into a ZIP file for easy transfer.",
-                    "I created detailed documentation on how to setup and use the application, including examples of the functions used. I also provided a GUI-based sample application, showing how the application could be used.",
-                    "I provided support for the client for additional improvements and issues."
-                ]
-            },
-            {
-                "title": "Glass Media",
-                "subtitle": "CMS to control marketing displays remotely",
-                "photo": "/assets/screenshots/glass.png",
-                "photoAlt": "Screenshot of Glass Media",
-                "description": "Glass Media is a company that helps business with storefronts market their products through the use of various types of electronic displays, such as projectors or mounted televisions. I helped build a CMS and the application running on the control unit for the displays.",
-                "points": [
-                    "I managed a team of developers working for our consulting company to build the CMS portal. We kept track of issues through Redmine and met to discuss the progress of the project. I helped plan feature design, meeting with the client and discussing feature requests, and creating tickets for the team.",
-                    "When the project had encountered a major issue, I helped contact the team to have them come into the office. I then met with the team to discuss the issue and work towards a plan to fix it. Then, I monitored the progress of the fix and helped with the changes, then pushed to production once testing had finished.",
-                    "The backend uses Laravel, a framework for PHP that we used to build the APIs. The frontend uses React & React Router, along with Boostrap components.",
-                    "I built a React component wrapper around the React Data Table component, to improve upon tech debt, where multiple page components were duplicating code. I then showed this to the rest of the team and enlisted help getting the rest of the pages to use the new structure, and showing how this would be useful in the future.",
-                    "I built a video conversion system for videos uploaded by customers to run on the displays. The first version was a python script designed to run FFmpeg and then push the result to a S3 bucket. I built an additional version that used AWS Elemental MediaConvert, to lessen the stress on the server.",
-                    "I helped research and design the application running on the Linux-based control unit for the displays. We decided on using Electron, using HTML/Javascript and Node components, to allow for fast development and local testing. I built a second version of the control unit application, using a node backend and a off the shelf Chrome instance, all running on the control unit, to allow for GPU rendering. I implemented a WebSocket communication between the two layers, with logic to re-connect if one of the layers went down.",
-                    "I helped research and design the communication method between the CMS server and the control unit. A previous version of this, before our team was involved, used a RabbitMQ server in an inefficient way. We decided to use a pair of S3 buckets to allow for greater scaling, where the control unit would poll for a hash change on a control JSON file, and then submit its result to another status JSON file, which the CMS server would poll to listen for changes to. This allowed for fast communication for changes such as settings, media to play, and updates.",
-                    "To allow for remote debugging of issues that could arise, I built an automated system to generate and retrieve a OpenVPN profile and install it on the control unit the first time it communicated with the CMS. Then we could login to the VPN server and SSH into the control unit, when it was not on the same network.",
-                    "The first deployment of the CMS used EC2 instances with the components, such as PHP and gulp, installed directly on the instance. I built a newer version that used Docker Compose on the EC2 instance, to facilitate easier development and deployment."
-                ]
-            },
-            {
-                "title": "DevelApp",
-                "subtitle": "Letting customers build mobile apps without any code",
-                "noPhoto": true,
-                "description": "DevelApp is a service that lets small businesses create a mobile app and have it published in the stoer without having to write any code, providing a friendly user interface to create content and configure their app.",
-                "points": [
-                    "I helped manage a team of developers working for our consulting company to build the portal and the mobile app framework. We kept track of issues through Redmine and met to discuss the progress of the project.",
-                    "For the backend and frontend, the first version used Meteor. For the mobile apps, we used the Xamarin framework.",
-                    "The mobile applications were built with a combination of Xamarin C# and a Webview running a local copy of a portion of the portal code. I built an interface between the C# and Javascript layers of the application.",
-                    "For the mobile application and the backend, I built a push notification system using Azure Notification Hub, with a scheduling system to delay notifications. The user of the application could request to be put into a list for a certain product, and then the application owner could send a message to everyone in that list.",
-                    "I built a ruby script based on Fastlane running on a Mac Mini to build and publish the apps to the Apple Store, without requiring user interaction. For android, I built an interface on a Windows AWS EC2 Instance, to accept build requests and publish to the play store.",
-                    "I helped manage a team of developers to re-design and re-implement the feature set in a new platform to make it easier to develop. I worked with a developer on the team to research various languages and frameworks for the API, such as C#, Python, and Node. We decided on a node express backend, with a custom UI and backend framework.",
-                    "I researched and built a custom UI and backend framework, with a structure to allow for sharing database models and other content across both portions. This would then be interpreted by a script and built."
-                ]
-            },
-            {
-                "title": "Bestow",
-                "subtitle": "Quotes for life insurance made easier",
-                "photo": "/assets/screenshots/bestow.png",
-                "description": "Bestow is a company that requested a interactive branching form to help the customer find their best life insurance.",
-                "points": [
-                    "I helped manage a team of developers working for our consulting company to build the frontend and backend of the website.",
-                    "I helped design the structure of the project and researched possible frameworks. We used Python Flask with SQLAlchemy & Postgres, and React for the frontend."
-                ]
-            },
-            {
-                "title": "FISH Technologies",
-                "subtitle": "Experiential marketing",
-                "noPhoto": true,
-                "description": "FISH Technologies had many interactive marketing tools and events with multiple technologies involved.",
-                "points": [
-                    "I helped research and develop a set of mobile applications, using Xamarin for Android and iOS, and a CEF-based Windows application. The UI for the applications was a webview. I built an interface between the Javascript and C# code to allow the C# code to be generic, and the UI Javascript had the majority of the control logic.",
-                    "For the Windows application, I implemented a interface to a USB device to read RFID tags.",
-                    "For the mobile applications, I helped design and build a system for tracking dwell time of people in an event using BLE tags coming in and out of range. I presented my findings to the client and helped answer questions and responded to feedback",
-                    "I built a green screen control app, to control an off the shelf video composite application with the UI mentioned above.",
-                    "I built a FFmpeg based python script to run on the backend servers to take a set of videos and combine them with as little performance impact on the server as possible.",
-                    "I built a portal to allow for the marketing team and customers of the company to manage their content without needing to change code or build a new app. The backend for the portal was Python Flask with SqlAlchemy & Postgres, with a React frontend.",
-                    "I helped manage a team of developers from the consulting company to add new features and update the portal. I met with the client to discuss new feature requests and created tickets, designed, and discussed the technical aspects with the team.",
-                    "I went on-site to help monitor and setup an event in New York City. I coordinated the setup of a set of standup tablet towers around the event site, and helped diagnose issues as they came up.",
-                    "I took over maintaining a legacy iOS Objective-C app. I met with the project managers to go over new features or new user instance changes requested by the customer, implemented the changes, and received and responded to feedback. As part of that project, I continued maintaining the interface between the app and a plug-in driver's license scanner."
-                ]
-            },
-            {
-                "title": "OpenVPN",
-                "subtitle": "VPN client to connect with self-hosted servers with easy to use service option",
-                "photo": "/assets/screenshots/openvpn.png",
-                "photoAlt": "Screenshot of PrivateTunnel",
-                "description": "OpenVPN provides a fully featured open source VPN client and server, along with offering a paid service for access to provided VPN servers.",
-                "points": [
-                    "I was brought on to take over the UI implementation development of the PrivateTunnel client application, developed for mobile devices, Windows, and Mac.",
-                    "I was given UI designs and HTML and implemented them on the platforms, including adding support for interacting with APIs to get account status, bookmarks, and available servers.",
-                    "I worked with the backend development team for new features and helping to diagnose bugs.",
-                    "The original project had unique code for each platform. I took C code that had implementation issues ,and designed and built a common C++ layer for all of the platforms to drive the UI interface, so that only platform-specific code was unique to each platform.",
-                    "I researched and implemented the CEF interface for the UI for Windows and Mac. I maintained the Objective-C code needed for iOS and Mac, the Java code for Android, and the C++ code for Windows.",
-                    "For the android application to use the common C++ interface, I researched and implemented a JNI interface between the two layers.",
-                    "I handled creating and publishing releases of the application. I published test builds to TestFlight for iOS and on a shared drive for the rest of the platforms."
-                ]
-            }
-        ]
-    },
-    {
-        "title": "Personal Projects",
-        "items": [
-            {
-                "title": "Luxtorpeda",
-                "subtitle": "Linux app for using source ports with Steam",
-                "photo": "/assets/screenshots/luxtorpeda.png",
-                "photoAlt": "Screenshot of Luxtorpeda",
-                "description": "Older games that have been released on steam can include out-of-date binaries which can be difficult to run on newer systems. This project allows for Linux users to download better versions of the application part of the game, using source ports that expand on the original game source code, without having to go through manual steps. I am the maintainer of this open source project, which was forked from an inactive project.",
-                "points": [
-                    "The project includes a user interface and a repository of build scripts for the various ports.",
-                    "The user interface is built in rust, which shows the user the available ports, then automatically downloads the latest version, configures, and launches it.",
-                    "I created bash scripts for building the ports. These scripts handle downloading the source code from git repositories, building & configuring any depedencies, then configuring build tools, such as CMake or make, to build the port.",
-                    "I created GitHub CI Actions to automatically build the UI and port projects when a pull request or commit is pushed. The CI process will then create GitHub releases for storing the build artifact.",
-                    "I handled issues and pull requests from users of the project.",
-                    "The latest version of the application has been downloaded over 2000 times.",
-                    "I contributed a pull request to the egui project for a new feature, responding to feedback and getting it approved and merged. I contributed additional pull requests to a game engine project, to improve the handling of the window and mouse on Linux."
-                ]
-            },
-            {
-                "title": "Tower Defense",
-                "subtitle": "Tower defense game built with Godot",
-                "photo": "/assets/screenshots/td.png",
-                "photoAlt": "Screenshot of Tower Defense",
-                "description": "I built this game to learn about the Godot game engine. I used open source assets and followed tutorials on how to use Godot, then expanded on the features.",
-                "points": [
-                    "The game logic is written in GDScript, which looks similar in syntax to Python. I learned about signals, modifying and creating UI elements, and modifying and creating game objects.",
-                    "I added features to the game so that the settings of the objects in the game, like the turrets and enemies, can be customized in-game with an editor.",
-                    "I added music that changes based on if idle or in a wave, and then added sound effects for button clicks, explosions, etc.",
-                    "I added an additional laser turret, and a missile turret with fired missiles, which helped me to learn physics objects."
-                ]
-            }
-        ]
-    }
+[{
+    "title": "Contract Projects",
+    "items": [{
+            "title": "Shopify Store Custom Development",
+            "subtitle": "Personalized online store for women's pants",
+            "description": "Online store specializing in women's pants. A major feature of the store is a quiz that the customer takes that determines their size and shape for ordering product. I help maintain an existing Shopify 1.0 store and have been working on a new Shopify 2.0 version of the store.",
+            "points": [
+                "Assumed responsibility of improvement/maintenance of client's customized production Shopify 1.0 theme",
+                "Developed a migration path for the client's store to Shopify 2.0 framework and selection of appropriate themes (selected 2.0 themes over Shopify's support for a headless implementation)",
+                "Built and maintain the PHP backend for a fit finding quiz. The quiz results are stored in an MySQL database, currently with over two million records",
+                "Built an extended version of the same quiz that also integrates with the API of a 3rd party photo capture/analysis service to obtain accurate measurements and retrieve/store the photos in an encrypted AWS S3 bucket",
+                "Built a Shopify 2.0 theme extension with a new quiz user interface using bootstrap and HTML to present a step-by-step wizard for the questions with validation",
+                "Built an integration of the new quiz with Amazon Mechanical Turk, to help automate data collection/analysis used to improve the fit algorithm, supporting both cross-sectional and longitudal studies",
+                "Improved the integration of the marketing service Klaviyo, to help streamline the process of sending emails when a quiz was taken and to track more data about the customer for future emails",
+                "Designed solutions for issues with the 3rd party CMS portion of the client's store."
+            ]
+        },
+        {
+            "title": "Conferencing",
+            "subtitle": "Social platform with video conferencing",
+            "description": "An extensive social media platform, with friends, messaging system, groups and a personal profile that is managed with a custom drag/drop editor. It has an easy to use video conferencing feature set, using your browser or provided desktop and mobile apps",
+            "points": [
+                "Built original version for client several years ago using Flash framework, along with a PHP and Adobe Flash Media Server backend, while also supporting the open source Red5 video server",
+                "Created a new version built with Angular frontend, Node backend, Postgres database, Ionic Framework for mobile and desktop apps, and OpenVidu server leveraging WebRTC for the video conferencing",
+                "Created a theming engine for the frontend, seperating the logic of the page from it's presentation. This was used so that browser and mobile could share logic but have different user interfaces, bootstrap and angular material for desktop, Ionic Framework for mobile and desktop",
+                "Created for video conferencing an industry unique capability to share documents and/or on-demand video streams, resulting in higher quality with lower bandwidth demand compared to typical desktop sharing features (desktop sharing was also included)",
+                "Ionic Framework was used to build mobile and desktop apps, using that framework's user interface modules and build process - supported sharing interface logic between desktop, mobile, and browser environments leading to much faster development cycles compared to full native applications",
+                "Created mobile browser integration to support launching the app directly into a conference",
+                "Created an Express JSON API subsystem, with support for running longer running functions, such as document conversion and email/SMS messaging using an AWS Lambda job technique",
+                "Integrated ffmpeg for converting the videos into a common format and extracting screenshots, storing the results in an AWS S3 bucket",
+                "Created a Docker Compose environment for all of the services required to run the project, used in Amazon EC2 instances for development and production"
+            ]
+        },
+        {
+            "title": "AWS to Self-Hosting",
+            "subtitle": "Migrate services from AWS to onsite servers and database",
+            "description": "Our company was charged for multiple AWS EC2 Instances, so I wanted to work on saving money. To that end, I created a local server cluster. I installed Pfsense on a PC to act as the router and setup docker containers on an Intel NUC and a Raspberry Pi. This helped me learn more about Docker Compose and publishing services hosted locally with Cloudflare.",
+            "points": [
+                "Installed Pfsense on a PC and setup a Ubiquiti AP for WiFi",
+                "Installed Ubuntu Server on an Intel NUC and a Raspberry Pi, then installed Docker and Portainer for container management",
+                "Created Docker Compose environments for Gitea, Mattermost, Redmine, and KeyCloak, and an authorization server - migrating from the original on AWS as EC2 instances, without docker",
+                "Setup all of the above services to authenticate with KeyCloak, so that only one login is required",
+                "Setup Cloudflare tunnels to have the services accessible on the internet, without exposing the IP address",
+                "Setup a backup process automatically uploading all onsite data to an S3 bucket"
+            ]
+        },
+        {
+            "title": "Healthcare",
+            "subtitle": "Remote patient monitoring",
+            "description": "VitalTech is a health company in the remote patient monitoring space, with integrations with various bluetooth devices to track vitals.",
+            "points": [
+                "Led a team of in-house developers within the company along with an outsourced overseas team, functioning as a liason with the stakeholders (customers, product managers, and the management team)",
+                "Managed issues and reports through JIRA, and used Github to help manage the code development",
+                "Built the service backend using Node & Express, with a database in MongoDB Atlas",
+                "Built the service frontend using Angular with Bootstrap and Angular Material components",
+                "Designed and built a job queuing system with associated API using Node forks and RabbitMQ to store the jobs",
+                "Built an API query validation framework",
+                "Built integrations with Twilio for sending text messages, automated calling when an alert had occured, and video conferencing",
+                "Developed a system for inviting a 3rd party doctor to a two way video call with a patient, initiated via a push notification",
+                "Developed a set of APIs to support 3rd party queries retrieve customer health vitals measurements",
+                "Created a system for Github CI Actions (pull request creation/changes) automated tests of the backend, using Mocha and a in-memory MongoDB server",
+                "Built an application to run on a Linux-based bluetooth hub, using C++, integrating an MQTT client and a bluetooth device layer",
+                "Created a portal user interface to allow customer support to configure and manage the bluetooth device hubs",
+                "Managed the Heroku servers used for both production and staging",
+                "Developed integration for multiple health providers, using solutions including Xealth and Redox, providing patient information and doctor portal single sign-on services"
+            ]
+        },
+        {
+            "title": "Enterprice Resource Platform",
+            "subtitle": "Browser-based ERP application with drag/drop No-Code UI/UX",
+            "noPhoto": true,
+            "description": "The ERP application was built to be completely web-based and be user friendly, as an alternative to the older systems available on the market. It interfaced to multiple devices, including printers and scanners.",
+            "points": [
+                "Selected Angular for the frontend, Node & Express for the backend, and Postgres for the database",
+                "Built generic widgets using Angular components such that all UI elements and server API calls were expressed in a JSON format",
+                "Created a drag/drop editor for the JSON files, allowing someone with no technical knowledge to build custom table view pages and workflows",
+                "Developed a docker environment for the frontend and backend to run on, supporting direct USB device access through the docker interface",
+                "Evolved docker environment for Intel NUCs, including support for USB device hotplugging",
+                "Created a TypeScript-based class structure for each device for device API command abstraction",
+                "Developed interfaces for label printers and document scanners, installing the drivers into the Linux docker environment, and then creating an interface to list, manage, and print to the requested printer. I researched existing Linux commands for managing printers, deciding on lp. I then added this to the node backend so that when a user wanted to manage printers or print a document, an API call would occur that would use this interface",
+                "Used lp for printer interfaces (list, manage, and print) and scanimage for document storage/retrieval functions",
+                "Built a report generation tool, based on the same JSON-based format using the Puppeteer tool to create a PDF - thus, reports were generated reusing same UI and logic that generates the web pages",
+                "Developed interfaces with network-based cash drawers, implementing a configuration system to add a new cash drawer, and then implemented functions to open and check the status of the cash drawer",
+                "Created a Postgres migration builder, using models built in Node to automate the creation of migrations"
+            ]
+        },
+        {
+            "title": "E-commerce Integration",
+            "subtitle": "Interfacing with CardConnect credit card terminals",
+            "description": "The client had a Point of Sales system without an integration to CardConnect terminals. I built a socket-based C# application to communicate with the Point of Sale System and the CardConnect API.",
+            "points": [
+                "The application was built with C# using .NET Core",
+                "The POS system would transmit a request over the socket to take a credit card which would trigger the CardConnect interface",
+                "The CardConnect device interfaced with REST API calls, using multiple servers - each server supporting different credit functions",
+                "Created a socket protocol whose payload contained the combination of a message header and a JSON representation of the CardConnect transaction",
+                "Developed an object class structure for communicating using REST APIs abstracting the detailed differences between multiple servers",
+                "Provided a JSON-based, multi-terminal configuration system, to allow the user of the application to run multiple terminals",
+                "Used terminal API to capture customer signature images",
+                "Built a PowerShell script that compiles, builds, and packages the application into a single ZIP file",
+                "Provided detailed documentation for setup and use of the application, along with a GUI-based sample application",
+                "Provided client support, with additional improvements and issue resolution"
+            ]
+        },
+        {
+            "title": "Experiential Marketing Applications",
+            "subtitle": "CMS to control marketing displays remotely",
+            "description": "Glass Media is a company that helps business with storefronts market their products through the use of various types of electronic displays, such as projectors or mounted televisions. I helped build a CMS and the application running on the control unit for the displays.",
+            "points": [
+                "Managed a team of developers working for Mentortek to build a media CMS portal, functioned as liason between various stakeholders and the development team",
+                "Developed backend architecture using Laravel, a framework for PHP in conjunction with a frontend using React & React Router, coupled with Boostrap components",
+                "Built a React component wrapper around the React Data Table component, improving upon tech debt by reducing code duplication",
+                "Built a conversion system for videos uploaded by customers to run on the displays controlled by the CMS using two architectures - A python script designed to run FFmpeg & pushing the result to a S3 bucket, switching to AWS Elemental MediaConvert for increased performance",
+                "Designed the application running on the Linux-based control unit managing the media displays, initially using Electron, with HTML/Javascript and Node components",
+                "Developed a second version of the control unit application, using a node backend and an off the shelf Chrome instance, all running on the control unit, supporting GPU rendering and using a fault tolerant WebSocket communication protocol between the two layers",
+                "Designed a novel communication method between the CMS server and the media control unit that replaced a RabbitMQ server with a reliable protocol based on using pair of S3 buckets which provided improved scaling and performance",
+                "Built an automation subsystem to manage (create and deploy) OpenVPN profiles to support remote debugging of thousands of media control units via SSH and remote login",
+                "Migrated CMS deployment from direct component installations (e.g., PHP, gulp) on the EC2 to a newer version that used Docker Compose on the EC2 instance"
+            ]
+        },
+        {
+            "title": "NoCode Platform",
+            "subtitle": "Build mobile apps via drag/drop",
+            "noPhoto": true,
+            "description": "DevelApp is a service that lets small businesses create a mobile app and have it published in the stoer without having to write any code, providing a friendly user interface to create content and configure their app.",
+            "points": [
+                "Managed a team of developers working for Mentortek to build a portal and mobile app framework",
+                "Used Meteor for the initial backend and frontend architecture, along with Xamarin for the mobile app framework",
+                "Built the mobile applications with a combination of Xamarin C# with a Webview running a mobile-friendly local copy of a portion of the portal code",
+                "Developed a push notification system as a tie between the mobile application and the backend using Azure Notification Hub coupled with a custom notification scheduling system",
+                "Built automations for publication of the mobile apps to the Apple Store (ios) and the Google Play Store (android)",
+                "Designed a ruby script based on Fastlane running on a Mac Mini to build and publish to the Apple Store",
+                "Developed an interface on a Windows AWS EC2 Instance, to accept build requests and publish to the Google Play Store",
+                "Manage a team of developers to migrate the feature set from Meteor to improve performance and development processes using a custom UI and backend framework based on Node Express"
+            ]
+        },
+        {
+            "title": "Online Life Insurance Portal",
+            "subtitle": "Quotes for life insurance made in real time",
+            "description": "Bestow is a company that requested a interactive branching form to help the customer find their best life insurance.",
+            "points": [
+                "Managed a team of Mentortek developers to build the frontend and backend of an MVP web application to query potential customers providing them with real time life insurance quotes",
+                "Developed an architecture using Python Flask, SQLAlchemy, Postgres, and React",
+                "Developed custom interfaces for 3rd party insurance underwriting and accounting APIs (SOAP/XML, etc.)",
+                "Supported client's effort to build an in-house, post-MVP team resulting in a successful transition"
+            ]
+        },
+        {
+            "title": "Experiential Marketing Applications",
+            "subtitle": "Onsite real time event management and data collection",
+            "description": "FISH Technologies had many interactive marketing tools and events with multiple technologies involved.",
+            "points": [
+                "Developed a set of mobile applications, using Xamarin for Android and iOS, and a CEF-based Windows application",
+                "The UI for the applications was a Webview whose Javascript code was supported by generic native mobile backend C# code - UI Javascript had the majority of the control logic",
+                "Implemented an interface to a USB device to read RFID tags for the Windows application",
+                "Developed a Linux-based application to control microprocessor custom towers, creating methods for remote deployment",
+                "Designed custom tower application support for both UHF (used for ranging) and HF (used for tap control) tags",
+                "Developed custom tower features for onsite touch screen gamification/interaction",
+                "Built a system for tracking dwell time of people in an event via BLE tags as they came in and out of range",
+                "Developed a green screen control app, managing an off the shelf video composite application",
+                "Built an FFmpeg based python script to run on the backend servers to take a set of videos and efficiently combine them",
+                "Built a portal to allow for the marketing team and customers of the company to manage their content without needing to change code or build a new app - the backend for the portal was Python Flask with SqlAlchemy & Postgres, with a React frontend",
+                "Managed a team of Mentortek developers to add new features and update the portal, serving as a liason among all stakeholders",
+                "Helped manage on-site operations for New York City Superbowl experiential event",
+                "Maintained a legacy iOS Objective-C app which included device driver interfaces such a plug-in driver's license scanner"
+            ]
+        },
+        {
+            "title": "VPN Remote Management/Security",
+            "subtitle": "VPN client to connect with self-hosted servers with easy to use service option",
+            "description": "OpenVPN provides a fully featured open source VPN client and server, along with offering a paid service for access to provided VPN servers.",
+            "points": [
+                "Developed the user interface of a VPN client application, supporting mobile devices, Windows, and Mac",
+                "Built to the backend server API specifications for adding account status, bookmarks, and available servers",
+                "Supported the backend development team for new features and diagnosing issues",
+                "Designed a common C++ layer for all of the platforms to drive the UI interface, eliminating most platform-specific code",
+                "Implemented the CEF interface for the UI for Windows and Mac, while maintaining the platform specific Objective-C code needed for iOS and Mac, the Java code for Android, and the C++ code for Windows",
+                "Implemented a JNI layer to allow the android application to use the common C++ interface logic",
+                "Handled creating and publishing releases of the application with test builds to TestFlight for iOS and publication on a shared drive for the rest of the platforms"
+            ]
+        }
+    ]
+},
+{
+    "title": "Open Source Projects",
+    "items": [{
+            "title": "Luxtorpeda",
+            "subtitle": "Linux app for using source ports with Steam",
+            "description": "Older games that have been released on steam can include out-of-date binaries which can be difficult to run on newer systems. This project allows for Linux users to download better versions of the application part of the game, using source ports that expand on the original game source code, without having to go through manual steps. I am the maintainer of this open source project, which was forked from an inactive project.",
+            "points": [
+                "The project includes a user interface and a repository of build scripts for the various ports",
+                "The user interface is built in Rust, which shows the user the available ports, then automatically downloads the latest version, configures, and launches it",
+                "Created bash scripts for building the ports. These scripts handle downloading the source code from git repositories, building & configuring any depedencies, then configuring build tools, such as CMake or make, to build the port",
+                "Created GitHub CI Actions to automatically build the UI and port projects when a pull request or commit is pushed. The CI process will then create GitHub releases for storing the build artifact",
+                "Handled issues and pull requests from users of the project",
+                "The latest version of the application has been downloaded over 2000 times",
+                "Contributed a pull request to the egui project for a new feature",
+                "Contributed additional pull requests to a game engine project, to improve the handling of the window and mouse on Linux"
+            ]
+        },
+        {
+            "title": "Tower Defense",
+            "subtitle": "Tower defense game built with Godot",
+            "description": "I built this game to learn about the Godot game engine. I used open source assets and followed tutorials on how to use Godot, then expanded on the features.",
+            "points": [
+                "The game logic is written in GDScript, which looks similar in syntax to Python. I learned about signals, modifying and creating UI elements, and modifying and creating game objects",
+                "Added features to the game so that the settings of the objects in the game, like the turrets and enemies, can be customized in-game with an editor",
+                "Added music that changes based on if idle or in a wave, and then added sound effects for button clicks, explosions, etc",
+                "Added an additional laser turret, and a missile turret with fired missiles, which helped me to learn more related physics object"
+            ]
+        }
+    ]
+}
 ]

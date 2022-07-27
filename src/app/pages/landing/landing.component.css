@@ -1,12 +1,6 @@
 mat-card {
     height: 100%;
 }
-
-img, .no-img {
-    height: 20rem;
-    object-fit: contain;
-}
-
 .mat-card-title {
     font-size: 16px;
 }
