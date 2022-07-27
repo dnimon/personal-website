@@ -1,6 +1,6 @@
 {
     "coverLetter": {
-        "title": "Principal Software Engineer",
+        "title": "",
         "subtitle": "",
         "summary": "Technology innovator with over 10 years experience, developing a unique set of skills combining leadership, architecture, design, and implementation. Acquired deep experience via a dozen projects in the various disciplines required to conceive, build, deploy, and maintain solutions requiring combinations of cloud, mobile, and embedded architectures."
     },
@@ -63,9 +63,6 @@
                 },
                 {
                     "title": "Twilio - Text Messaging, Calls, Video Conferencing"
-                },
-                {
-                    "title": "Laravel"
                 },
                 {
                     "title": "Firebase Cloud Messaging"

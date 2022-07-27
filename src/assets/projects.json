@@ -47,7 +47,7 @@
         {
             "title": "Healthcare",
             "subtitle": "Remote patient monitoring",
-            "description": "VitalTech is a health company in the remote patient monitoring space, with integrations with various bluetooth devices to track vitals.",
+            "description": "Health company in the remote patient monitoring space, with integrations with various bluetooth devices to track vitals.",
             "points": [
                 "Led a team of in-house developers within the company along with an outsourced overseas team, functioning as a liason with the stakeholders (customers, product managers, and the management team)",
                 "Managed issues and reports through JIRA, and used Github to help manage the code development",
@@ -104,7 +104,7 @@
         {
             "title": "Experiential Marketing Applications",
             "subtitle": "CMS to control marketing displays remotely",
-            "description": "Glass Media is a company that helps business with storefronts market their products through the use of various types of electronic displays, such as projectors or mounted televisions. I helped build a CMS and the application running on the control unit for the displays.",
+            "description": "Helps business with storefronts market their products through the use of various types of electronic displays, such as projectors or mounted televisions. I helped build a CMS and the application running on the control unit for the displays.",
             "points": [
                 "Managed a team of developers working for Mentortek to build a media CMS portal, functioned as liason between various stakeholders and the development team",
                 "Developed backend architecture using Laravel, a framework for PHP in conjunction with a frontend using React & React Router, coupled with Boostrap components",
@@ -121,7 +121,7 @@
             "title": "NoCode Platform",
             "subtitle": "Build mobile apps via drag/drop",
             "noPhoto": true,
-            "description": "DevelApp is a service that lets small businesses create a mobile app and have it published in the stoer without having to write any code, providing a friendly user interface to create content and configure their app.",
+            "description": "Service that lets small businesses create a mobile app and have it published in the stoer without having to write any code, providing a friendly user interface to create content and configure their app.",
             "points": [
                 "Managed a team of developers working for Mentortek to build a portal and mobile app framework",
                 "Used Meteor for the initial backend and frontend architecture, along with Xamarin for the mobile app framework",
@@ -136,7 +136,7 @@
         {
             "title": "Online Life Insurance Portal",
             "subtitle": "Quotes for life insurance made in real time",
-            "description": "Bestow is a company that requested a interactive branching form to help the customer find their best life insurance.",
+            "description": "Company requested a interactive branching form to help the customer find their best life insurance.",
             "points": [
                 "Managed a team of Mentortek developers to build the frontend and backend of an MVP web application to query potential customers providing them with real time life insurance quotes",
                 "Developed an architecture using Python Flask, SQLAlchemy, Postgres, and React",
@@ -147,7 +147,7 @@
         {
             "title": "Experiential Marketing Applications",
             "subtitle": "Onsite real time event management and data collection",
-            "description": "FISH Technologies had many interactive marketing tools and events with multiple technologies involved.",
+            "description": "Many interactive marketing tools and events with multiple technologies involved.",
             "points": [
                 "Developed a set of mobile applications, using Xamarin for Android and iOS, and a CEF-based Windows application",
                 "The UI for the applications was a Webview whose Javascript code was supported by generic native mobile backend C# code - UI Javascript had the majority of the control logic",
@@ -167,7 +167,7 @@
         {
             "title": "VPN Remote Management/Security",
             "subtitle": "VPN client to connect with self-hosted servers with easy to use service option",
-            "description": "OpenVPN provides a fully featured open source VPN client and server, along with offering a paid service for access to provided VPN servers.",
+            "description": "Company provides a fully featured open source VPN client and server, along with offering a paid service for access to provided VPN servers.",
             "points": [
                 "Developed the user interface of a VPN client application, supporting mobile devices, Windows, and Mac",
                 "Built to the backend server API specifications for adding account status, bookmarks, and available servers",
