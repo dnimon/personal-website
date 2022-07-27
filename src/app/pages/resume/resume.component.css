@@ -1,4 +1,8 @@
 :host {
-    height: 100%;
+    height: calc(100% - 80px);
     display: flex;
+}
+
+::ng-deep ng2-pdfjs-viewer iframe {
+   border: 0 !important;
 }
