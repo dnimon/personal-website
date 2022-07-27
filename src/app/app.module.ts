@@ -8,17 +8,19 @@ import { HeaderComponent } from './elements/header/header.component';
 import { ProjectsComponent } from './pages/projects/projects.component';
 import {MatCardModule} from '@angular/material/card'; 
 import {MatButtonModule} from '@angular/material/button';
-import { LandingComponent } from './pages/landing/landing.component';
 import { ResumeComponent } from './pages/resume/resume.component'; 
 import { PdfJsViewerModule } from 'ng2-pdfjs-viewer';
+import { TechComponent } from './pages/tech/tech.component';
+import { HomeComponent } from './pages/home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     ProjectsComponent,
-    LandingComponent,
-    ResumeComponent
+    TechComponent,
+    ResumeComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

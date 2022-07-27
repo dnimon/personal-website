@@ -1,13 +1,15 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { LandingComponent } from './pages/landing/landing.component';
+import { HomeComponent } from './pages/home/home.component';
 import { ProjectsComponent } from './pages/projects/projects.component';
 import { ResumeComponent } from './pages/resume/resume.component';
+import { TechComponent } from './pages/tech/tech.component';
 
 const routes: Routes = [
   { path: 'portfolio', component: ProjectsComponent, data: {title: 'David Nimon - Portfolio' } },
   { path: 'resume', component: ResumeComponent, data: {title: 'David Nimon - Resume' } },
-  { path: '**', component: LandingComponent, data: {title: 'David Nimon' } }
+  { path: 'technologies', component: TechComponent, data: {title: 'David Nimon - Technologies' } },
+  { path: '**', component: HomeComponent, data: {title: 'David Nimon' } }
 ];
 
 @NgModule({
