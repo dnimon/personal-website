@@ -1,12 +1,13 @@
 [
     {
         "title": "Frameworks",
+        "description": "Platforms used to build applications",
         "items": [
             {
                 "title": "Angular with Router, Material, and Bootstrap"
             },
             {
-                "title": "Node with Express & Mocha for Creating Tests"
+                "title": "Node with Express & Mocha for Creating Tests, with Knex, Sequelize, or Mongoose"
             },
             {
                 "title": "Docker with Docker Compose"
@@ -38,7 +39,8 @@
         ]
     },
     {
-        "title": "Services Used",
+        "title": "Services",
+        "description": "Services used to provide major features or infrastructure for applications",
         "items": [
             {
                 "title": "AWS - EC2, S3, Lamdba, CloudWatch, VPC, RDS, Mechanical Turk, Elemental MediaConvert"
@@ -51,7 +53,13 @@
             },
             {
                 "title": "MongoDB Atlas"
-            },
+            }
+        ]
+    },
+    {
+        "title": "Integrations",
+        "description": "3rd party services integrated with applications to provide features",
+        "items": [
             {
                 "title": "Sendgrid"
             },
@@ -62,21 +70,31 @@
                 "title": "Firebase Cloud Messaging"
             },
             {
+                "title": "Stripe"
+            },
+            {
+                "title": "Paypal"
+            },
+            {
+                "title": "Redox and Xealth for HL7 health system integration"
+            },
+            {
+                "title": "CardConnect"
+            },
+            {
                 "title": "Azure Notification Hubs"
             },
             {
                 "title": "Klaviyo"
             },
             {
-                "title": "Stripe"
-            },
-            {
-                "title": "Paypal"
+                "title": "Authorize.Net"
             }
         ]
     },
     {
         "title": "Languages",
+        "description": "Expertise in multiple high-level programming languages",
         "items": [
             {
                 "title": "Javascript (Node & Browser-based)"
@@ -112,6 +130,7 @@
     },
     {
         "title": "Databases",
+        "description": "Creating and managing schema, communication with database with code",
         "items": [
             {
                 "title": "Postgres"
@@ -121,38 +140,54 @@
             },
             {
                 "title": "MongoDB"
+            },
+            {
+                "title": "SQLite"
             }
         ]
     },
     {
-        "title": "Additional Experience",
+        "title": "Project Tools",
+        "description": "Tools familiar with that help manage a project or collaborate on code and design",
+        "items": [
+            {
+                "title": "Git command line and GUI tools, such as Sublime Merge or Sourcetree. Created, managed, and reviewed Github pull requests"
+            },
+            {
+                "title": "JIRA and Redmine, creating issues and keeping track of progress"
+            },
+            {
+                "title": "Lucidchart to supplement technical documentation with UML, structure/database diagrams, etc"
+            }
+        ]
+    },
+    {
+        "title": "IT Administration",
+        "description": "Knowledge in server and infrastructure management",
         "items": [
             {
                 "title": "Setting up AWS Instances with Ubuntu, installing packages or Docker environments, and maintenance"
             },
             {
-                "title": "Setting up physical systems with Ubuntu server"
+                "title": "Setting up physical systems with Linux-based server"
             },
             {
-                "title": "Setting up and managing databases, including Postgres, MySQL, and MongoDB on Linux servers"
+                "title": "Using AWS Security Rules and utilities like iptables to secure servers"
+            },
+            {
+                "title": "Setting up and managing databases for production (Linux servers) and development platforms (Windows, OS X, Linux)"
+            },
+            {
+                "title": "Management of embedded systems such as raspberry pis"
+            },
+            {
+                "title": "Setting up remote connection to systems using VPN"
+            },
+            {
+                "title": "Setting up and maintaining small business network, using pfSense for the router"
             },
             {
                 "title": "Using Windows, OS X, and Linux in a GUI environment. Using Windows Command Line & PowerShell, OS X Terminal, and Linux Terminal"
-            },
-            {
-                "title": "Developing and setting up interfaces between client code and 3rd party services"
-            },
-            {
-                "title": "E-commerce payment gateway integrations including Stripe, Paypal, CardConnect, Authorize.Net"
-            },
-            {
-                "title": "Using project tracking tools such as JIRA amd Redmine, creating issues and keeping track of progress"
-            },
-            {
-                "title": "Using git command line and GUI tools, such as Sublime Merge or Sourcetree. Created, managed, and reviewed Github pull requests"
-            },
-            {
-                "title": "Using diagram tools such as Lucidchart to supplement technical documentation with UML, structure/database diagrams, etc."
             }
         ]
     }
