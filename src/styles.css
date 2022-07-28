@@ -15,10 +15,15 @@ body { margin: 0; font-family: IbarraRealNova, "Helvetica Neue", sans-serif; }
 .header {
     font-size: 2rem;
     font-weight: 600;
+    line-height: 2.2rem;
 }
 
 .sub-header {
     font-size: 1.3rem;
+}
+
+hr {
+    border-top: 1px solid !important;
 }
 
 @media print {
@@ -28,5 +33,14 @@ body { margin: 0; font-family: IbarraRealNova, "Helvetica Neue", sans-serif; }
 
     body, .mat-card {
         background-color: white !important;
+    }
+
+    .mat-card-subtitle {
+        font-size: 20px !important;
+    }
+
+    .mat-card-content {
+        font-size: 22px !important;
+        line-height: 24px !important;
     }
 }

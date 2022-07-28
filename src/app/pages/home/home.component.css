@@ -1,0 +1,4 @@
+.photo-header-image {
+    background-image: url('/assets/photo.jpg');
+    background-size: cover;
+}

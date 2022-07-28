@@ -12,6 +12,7 @@ import { ResumeComponent } from './pages/resume/resume.component';
 import { PdfJsViewerModule } from 'ng2-pdfjs-viewer';
 import { TechComponent } from './pages/tech/tech.component';
 import { HomeComponent } from './pages/home/home.component';
+import { PatentsComponent } from './pages/patents/patents.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { HomeComponent } from './pages/home/home.component';
     ProjectsComponent,
     TechComponent,
     ResumeComponent,
-    HomeComponent
+    HomeComponent,
+    PatentsComponent
   ],
   imports: [
     BrowserModule,

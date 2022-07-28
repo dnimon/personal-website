@@ -1,7 +1,7 @@
 [
     {
         "title": "Frameworks",
-        "description": "Platforms used to build applications",
+        "description": "Frameworks used in projects to build custom cloud and mobile applications",
         "items": [
             {
                 "title": "Angular with Router, Material, and Bootstrap"
@@ -40,7 +40,7 @@
     },
     {
         "title": "Services",
-        "description": "Services used to provide major features or infrastructure for applications",
+        "description": "Commercial services used to deploy major features or entire infrastructure for applications",
         "items": [
             {
                 "title": "AWS - EC2, S3, Lamdba, CloudWatch, VPC, RDS, Mechanical Turk, Elemental MediaConvert"
@@ -53,12 +53,18 @@
             },
             {
                 "title": "MongoDB Atlas"
+            },
+            {
+                "title": "Liquid Web"
+            },
+            {
+                "title": "Rackspace"
             }
         ]
     },
     {
         "title": "Integrations",
-        "description": "3rd party services integrated with applications to provide features",
+        "description": "3rd party services integrated to extend applications",
         "items": [
             {
                 "title": "Sendgrid"
@@ -70,25 +76,22 @@
                 "title": "Firebase Cloud Messaging"
             },
             {
-                "title": "Stripe"
-            },
-            {
-                "title": "Paypal"
+                "title": "Payment Gateways - Stripe, Paypal, Authorize.Net, CardConnect"
             },
             {
                 "title": "Redox and Xealth for HL7 health system integration"
             },
             {
-                "title": "CardConnect"
+                "title": "Insurance ceding/fronting and reinsurance APIs for underwriting and accounting"
+            },
+            {
+                "title": "Support for 'Know Your Customer' and 'Customer Identification Program' - LexisNexis (EIR, Credit MVR, Risk Classifier), MIB Consumer File, Milliman RX, Ingenix MedPoint"
             },
             {
                 "title": "Azure Notification Hubs"
             },
             {
                 "title": "Klaviyo"
-            },
-            {
-                "title": "Authorize.Net"
             }
         ]
     },
@@ -130,7 +133,7 @@
     },
     {
         "title": "Databases",
-        "description": "Creating and managing schema, communication with database with code",
+        "description": "Creating and managing schema along with SQL, NoSQL, and ORM code development",
         "items": [
             {
                 "title": "Postgres"
@@ -143,21 +146,27 @@
             },
             {
                 "title": "SQLite"
+            },
+            {
+                "title": "ORM and Query Builders - Sequelize, SQLAlchemy, Knex"
             }
         ]
     },
     {
         "title": "Project Tools",
-        "description": "Tools familiar with that help manage a project or collaborate on code and design",
+        "description": "Tools used to help manage projects, including team collaboration on code and design",
         "items": [
             {
                 "title": "Git command line and GUI tools, such as Sublime Merge or Sourcetree. Created, managed, and reviewed Github pull requests"
             },
             {
-                "title": "JIRA and Redmine, creating issues and keeping track of progress"
+                "title": "JIRA and Redmine, managing issues and project progress"
             },
             {
-                "title": "Lucidchart to supplement technical documentation with UML, structure/database diagrams, etc"
+                "title": "Lucidchart, supplementing technical documentation including UML and architecture/database diagrams"
+            },
+            {
+                "title": "Team collaboration, including Slack and Mattermost"
             }
         ]
     },
@@ -166,10 +175,10 @@
         "description": "Knowledge in server and infrastructure management",
         "items": [
             {
-                "title": "Setting up AWS Instances with Ubuntu, installing packages or Docker environments, and maintenance"
+                "title": "Managing AWS Instances with Linux, installing packages or Docker environments, and maintenance"
             },
             {
-                "title": "Setting up physical systems with Linux-based server"
+                "title": "Managing on-premises physical systems with Linux-based servers"
             },
             {
                 "title": "Using AWS Security Rules and utilities like iptables to secure servers"
@@ -178,13 +187,13 @@
                 "title": "Setting up and managing databases for production (Linux servers) and development platforms (Windows, OS X, Linux)"
             },
             {
-                "title": "Management of embedded systems such as raspberry pis"
+                "title": "Management of embedded systems using Intel NUCs,  Raspberry PIs, and custom BLE devices"
             },
             {
-                "title": "Setting up remote connection to systems using VPN"
+                "title": "Development of remote management methods for systems using VPN servers, providing profile deployment automation"
             },
             {
-                "title": "Setting up and maintaining small business network, using pfSense for the router"
+                "title": "Setting up and maintaining small business on-premises networks, using pfSense for the router"
             },
             {
                 "title": "Using Windows, OS X, and Linux in a GUI environment. Using Windows Command Line & PowerShell, OS X Terminal, and Linux Terminal"

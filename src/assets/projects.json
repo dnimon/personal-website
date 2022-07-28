@@ -177,11 +177,22 @@
                 "Implemented a JNI layer to allow the android application to use the common C++ interface logic",
                 "Handled creating and publishing releases of the application with test builds to TestFlight for iOS and publication on a shared drive for the rest of the platforms"
             ]
+        },
+        {
+            "title": "R Shiny Server",
+            "subtitle": "Setting up and maintaining R Shiny Server",
+            "description": "Shiny allows for interactive web apps to be built through R. Client wanted a Shiny server accessible from the web.",
+            "points": [
+                "Given an existing Shiny application, determined the necessary dependencies",
+                "Created a Docker environment that installed R and shiny, then installed the necessary R package dependencies",
+                "Helped support maintenance of Shiny application and updated to handle Linux environment, compared to the original Windows environment it was developed with",
+                "Created an example Shiny app that used the Web File System Access API to retrieve directory listings and files in those directories."
+            ]
         }
     ]
 },
 {
-    "title": "Open Source Projects",
+    "title": "Special Projects",
     "items": [{
             "title": "Luxtorpeda",
             "subtitle": "Linux app for using source ports with Steam",
@@ -206,6 +217,16 @@
                 "Added features to the game so that the settings of the objects in the game, like the turrets and enemies, can be customized in-game with an editor",
                 "Added music that changes based on if idle or in a wave, and then added sound effects for button clicks, explosions, etc",
                 "Added an additional laser turret, and a missile turret with fired missiles, which helped me to learn more related physics object"
+            ]
+        },
+        {
+            "title": "Non-Profit Website",
+            "subtitle": "Website maintained for non-profit",
+            "description": "I took over maintenance of a Wordpress-based website for a non-profit.",
+            "points": [
+                "Installed and updated Wordpress plugins, including SEO and caching, to improve searching and performance",
+                "Updated the theme and pages due to requests",
+                "Built Xamarin Android & iOS Apps for a video catalog, to allow videos about the non-profit to be downloaded to be shown later without internet acccess. Built another version as a PWA in Javascript and HTML"
             ]
         }
     ]
