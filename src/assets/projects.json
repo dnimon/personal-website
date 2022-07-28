@@ -188,6 +188,18 @@
                 "Helped support maintenance of Shiny application and updated to handle Linux environment, compared to the original Windows environment it was developed with",
                 "Created an example Shiny app that used the Web File System Access API to retrieve directory listings and files in those directories."
             ]
+        },
+        {
+            "title": "Conference Registration Website",
+            "subtitle": "Maintained website and built registration system",
+            "description": "I built and maintained a Wordpress-based website for the organization. I also built and maintained a custom PHP based registration system.",
+            "points": [
+                "Installed and updated Wordpress plugins",
+                "Updated the theme and pages due to requests",
+                "Created registration system for customers to fill out form, pick add-ons, and pay registration fees, through a PayPal interface",
+                "Built an administration portal that allows the organization to add or modify products, change the content of the registration page, and see customer transactions",
+                "Built a label generation page for bulk or individual customers for creating badges for the conference, using PHP and HTML"
+            ]
         }
     ]
 },
