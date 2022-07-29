@@ -12,13 +12,13 @@
                 "Built a Shopify 2.0 theme extension with a new quiz user interface using bootstrap and HTML to present a step-by-step wizard for the questions with validation",
                 "Built an integration of the new quiz with Amazon Mechanical Turk, to help automate data collection/analysis used to improve the fit algorithm, supporting both cross-sectional and longitudinal studies",
                 "Improved the integration of the marketing service Klaviyo, to help streamline the process of sending emails when a quiz was taken and to track more data about the customer for future emails",
-                "Designed solutions for issues with the 3rd party CMS portion of the client's store."
+                "Designed solutions for issues with the 3rd party CMS portion of the client's store"
             ]
         },
         {
             "title": "Conferencing",
             "subtitle": "Social platform with video conferencing",
-            "description": "An extensive social media platform, with friends, messaging system, groups and a personal profile that is managed with a custom drag/drop editor. It has an easy to use video conferencing feature set, using your browser or provided desktop and mobile apps",
+            "description": "An extensive social media platform, with friends, messaging system, groups and a personal profile that is managed with a custom drag/drop editor. It has an easy to use video conferencing feature set, using your browser or provided desktop and mobile apps.",
             "points": [
                 "Built original version for client several years ago using Flash framework, along with a PHP and Adobe Flash Media Server backend, while also supporting the open source Red5 video server",
                 "Created a new version built with Angular frontend, Node backend, Postgres database, Ionic Framework for mobile and desktop apps, and OpenVidu server leveraging WebRTC for the video conferencing",
@@ -34,7 +34,7 @@
         {
             "title": "AWS to Self-Hosting",
             "subtitle": "Migrate services from AWS to onsite servers and database",
-            "description": "Our company was charged for multiple AWS EC2 Instances, so I wanted to work on saving money. To that end, I created a local server cluster. I installed Pfsense on a PC to act as the router and setup docker containers on an Intel NUC and a Raspberry Pi. This helped me learn more about Docker Compose and publishing services hosted locally with Cloudflare.",
+            "description": "Our company was charged for multiple AWS EC2 Instances, so I wanted to work on saving money. To that end, I created a local server cluster. I installed Pfsense on a PC to act as the router and setup Docker containers on an Intel NUC and a Raspberry Pi. This helped me learn more about Docker Compose and publishing services hosted locally with Cloudflare.",
             "points": [
                 "Installed Pfsense on a PC and setup a Ubiquiti AP for WiFi",
                 "Installed Ubuntu Server on an Intel NUC and a Raspberry Pi, then installed Docker and Portainer for container management",
@@ -62,13 +62,12 @@
                 "Built an application to run on a Linux-based bluetooth hub, using C++, integrating an MQTT client and a bluetooth device layer",
                 "Created a portal user interface to allow customer support to configure and manage the bluetooth device hubs",
                 "Managed the Heroku servers used for both production and staging",
-                "Developed integration for multiple health providers, using solutions including Xealth and Redox, providing patient information and doctor portal single sign-on services"
+                "Developed integration for multiple health providers, using solutions including Xealth and Redox to integrate with Epic and other systems, providing patient information and doctor portal single sign-on services"
             ]
         },
         {
             "title": "Enterprise Resource Platform",
-            "subtitle": "Browser-based ERP application with drag/drop No-Code UI/UX",
-            "noPhoto": true,
+            "subtitle": "Browser-based ERP application with drag/drop Low-Code/No-Code UI/UX",
             "description": "The ERP application was built to be completely web-based and be user friendly, as an alternative to the older systems available on the market. It interfaced to multiple devices, including printers and scanners.",
             "points": [
                 "Selected Angular for the frontend, Node & Express for the backend, and Postgres for the database",
@@ -79,7 +78,7 @@
                 "Created a TypeScript-based class structure for each device for device API command abstraction",
                 "Developed interfaces for label printers and document scanners, installing the drivers into the Linux docker environment, and then creating an interface to list, manage, and print to the requested printer. I researched existing Linux commands for managing printers, deciding on lp. I then added this to the node backend so that when a user wanted to manage printers or print a document, an API call would occur that would use this interface",
                 "Used lp for printer interfaces (list, manage, and print) and scanimage for document storage/retrieval functions",
-                "Built a report generation tool, based on the same JSON-based format using the Puppeteer tool to create a PDF - thus, reports were generated reusing same UI and logic that generates the web pages",
+                "Built a report generation tool, based on the same JSON-based format using the Puppeteer tool to create a PDF - reports were generated reusing same UI and logic that generates the web pages",
                 "Developed interfaces with network-based cash drawers, implementing a configuration system to add a new cash drawer, and then implemented functions to open and check the status of the cash drawer",
                 "Created a Postgres migration builder, using models built in Node to automate the creation of migrations"
             ]
@@ -127,10 +126,10 @@
                 "Used Meteor for the initial backend and frontend architecture, along with Xamarin for the mobile app framework",
                 "Built the mobile applications with a combination of Xamarin C# with a Webview running a mobile-friendly local copy of a portion of the portal code",
                 "Developed a push notification system as a tie between the mobile application and the backend using Azure Notification Hub coupled with a custom notification scheduling system",
-                "Built automations for publication of the mobile apps to the Apple Store (ios) and the Google Play Store (android)",
+                "Built automations for publication of the mobile apps to the Apple Store (iOS) and the Google Play Store (Android)",
                 "Designed a ruby script based on Fastlane running on a Mac Mini to build and publish to the Apple Store",
                 "Developed an interface on a Windows AWS EC2 Instance, to accept build requests and publish to the Google Play Store",
-                "Manage a team of developers to migrate the feature set from Meteor to improve performance and development processes using a custom UI and backend framework based on Node Express"
+                "Managed a team of developers to migrate the feature set from Meteor to improve performance and development processes using a custom UI and backend framework based on Node Express"
             ]
         },
         {

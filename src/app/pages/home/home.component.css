@@ -1,4 +1,10 @@
-.photo-header-image {
-    background-image: url('/assets/photo.jpg');
-    background-size: cover;
+@media print {
+    .download-item {
+        display: none;
+    }
+
+    a {
+        color: inherit !important;
+        text-decoration: none !important;
+    }
 }
