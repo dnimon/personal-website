@@ -1,0 +1,266 @@
+[
+    {
+        "title": "Custom Frameworks",
+        "description": "Custom frameworks built using a combination of open source projects and custom code, used as a basis for projects",
+        "items": [
+            {
+                "title": "Lightweight website stack based on PHP and MySQL"
+            },
+            {
+                "title": "Frameworks designed to simplify and localize the representation of domain knowledge using Node and Frontend Javascript, supporting PostgreSQL and MySQL. One framework was based on shared common objects between the frontend and backend, while the other confined all domain knowledge in the frontend, which greatly minimized the API footprint"
+            },
+            {
+                "title": "Framework using Python and OpenCV to support image capture and Optical Character Recognition services"
+            },
+            {
+                "title": "Custom embedded device framework built with Chromium and Node, abstracting CMS server and serial device communication used to manage kiosk media displays"
+            },
+            {
+                "title": "Framework for Node Express using a Typescript library abstracting USB embedded device communication/control"
+            },
+            {
+                "title": "Reusable, lightweight abstractions of FFmpeg interface allowing Linux servers (Node and Python) to support video stitching, conversion, and chroma key extraction - including a custom C++ FFmpeg filter based on an existing chroma key library"
+            },
+            {
+                "title": "Linux-based BLE hub framework, written in C++ which integrated libraries for MQTT clients and Bluez Bluetooth communication"
+            },
+            {
+                "title": "Angular based abstraction for code sharing of frontend event processing logic between responsive Bootstrap and Ionic mobile themes"
+            }
+        ]
+    },
+    {
+        "title": "Commercial and Open Source Frameworks",
+        "description": "Commercial and open source frameworks used in projects to build custom cloud and mobile applications",
+        "items": [
+            {
+                "title": "Angular with Router, Material, and Bootstrap"
+            },
+            {
+                "title": "Node with Express & Mocha for Creating Tests, with Knex, Sequelize, or Mongoose"
+            },
+            {
+                "title": "Docker with Docker Compose"
+            },
+            {
+                "title": "Ionic Framework with Capacitor"
+            },
+            {
+                "title": "Laravel"
+            },
+            {
+                "title": "Python Flask with SQLAlchemy"
+            },
+            {
+                "title": "React with React Router and Bootstrap"
+            },
+            {
+                "title": "Xamarin Android & Xamarin iOS"
+            },
+            {
+                "title": ".NET & .NET Core"
+            },
+            {
+                "title": "Meteor"
+            },
+            {
+                "title": "Wordpress"
+            }
+        ]
+    },
+    {
+        "title": "Services",
+        "description": "Commercial services used to deploy major features or entire infrastructure for applications",
+        "items": [
+            {
+                "title": "AWS - EC2, S3, Lamdba, CloudWatch, VPC, RDS, Mechanical Turk, Elemental MediaConvert"
+            },
+            {
+                "title": "Shopify"
+            },
+            {
+                "title": "Heroku"
+            },
+            {
+                "title": "MongoDB Atlas"
+            },
+            {
+                "title": "Liquid Web"
+            },
+            {
+                "title": "Rackspace"
+            }
+        ]
+    },
+    {
+        "title": "Integrations",
+        "description": "3rd party services integrated to extend applications",
+        "items": [
+            {
+                "title": "Sendgrid"
+            },
+            {
+                "title": "Twilio - Text Messaging, Calls, Video Conferencing"
+            },
+            {
+                "title": "Firebase Cloud Messaging"
+            },
+            {
+                "title": "Payment Gateways - Stripe, Paypal, Authorize.Net, CardConnect"
+            },
+            {
+                "title": "Redox and Xealth for HL7 health system integration"
+            },
+            {
+                "title": "Insurance ceding/fronting and reinsurance APIs for underwriting and accounting"
+            },
+            {
+                "title": "Support for 'Know Your Customer' and 'Customer Identification Program' - LexisNexis (EIR, Credit MVR, Risk Classifier), MIB Consumer File, Milliman RX, Ingenix MedPoint"
+            },
+            {
+                "title": "Azure Notification Hubs"
+            },
+            {
+                "title": "Klaviyo"
+            }
+        ]
+    },
+    {
+        "title": "Languages",
+        "description": "Expertise in multiple high-level programming languages",
+        "items": [
+            {
+                "title": "Javascript (Node & Browser-based) & TypeScript"
+            },
+            {
+                "title": "HTML & CSS"
+            },
+            {
+                "title": "PHP"
+            },
+            {
+                "title": "Python"
+            },
+            {
+                "title": "C#"
+            },
+            {
+                "title": "Java"
+            },
+            {
+                "title": "Rust"
+            },
+            {
+                "title": "C++"
+            },
+            {
+                "title": "C"
+            },
+            {
+                "title": "Objective-C"
+            },
+            {
+                "title": "Swift"
+            },
+            {
+                "title": "Ruby"
+            }
+        ]
+    },
+    {
+        "title": "Databases",
+        "description": "Creating and managing schema along with SQL, NoSQL, and ORM code development",
+        "items": [
+            {
+                "title": "Postgres"
+            },
+            {
+                "title": "MySQL"
+            },
+            {
+                "title": "MongoDB"
+            },
+            {
+                "title": "SQLite"
+            },
+            {
+                "title": "ORM and Query Builders - Sequelize, SQLAlchemy, Knex"
+            }
+        ]
+    },
+    {
+        "title": "Project Tools",
+        "description": "Tools used to help manage projects, including team collaboration on code and design",
+        "items": [
+            {
+                "title": "JIRA and Redmine, managing issues and project progress"
+            },
+            {
+                "title": "Lucidchart, supplementing technical documentation including UML and architecture/database diagrams"
+            },
+            {
+                "title": "Team collaboration, including Slack and Mattermost"
+            },
+            {
+                "title": "Build tools, including CMake and Webpack"
+            }
+        ]
+    },
+    {
+        "title": "Development Tools",
+        "description": "Tools used to help development",
+        "items": [
+            {
+                "title": "Git command line and GUI tools, such as Sublime Merge or Sourcetree. Created, managed, and reviewed Github pull requests"
+            },
+            {
+                "title": "Visual Studio Code"
+            },
+            {
+                "title": "Visual Studio"
+            },
+            {
+                "title": "vi and nano"
+            },
+            {
+                "title": "Eclipse"
+            },
+            {
+                "title": "CI such as GitHub Actions"
+            },
+            {
+                "title": "Puppeteer"
+            }
+        ]
+    },
+    {
+        "title": "IT Administration",
+        "description": "Knowledge in server and infrastructure management",
+        "items": [
+            {
+                "title": "Managing AWS Instances with Linux, installing packages or Docker environments, and maintenance"
+            },
+            {
+                "title": "Managing on-premises physical systems with Linux-based servers"
+            },
+            {
+                "title": "Using AWS Security Rules and utilities like iptables to secure servers"
+            },
+            {
+                "title": "Setting up and managing databases for production (Linux servers) and development platforms (Windows, OS X, Linux)"
+            },
+            {
+                "title": "Management of embedded systems using Intel NUCs,  Raspberry PIs, and custom BLE devices"
+            },
+            {
+                "title": "Development of remote management methods for systems using VPN servers, providing profile deployment automation"
+            },
+            {
+                "title": "Setting up and maintaining small business on-premises networks, using pfSense for the router"
+            },
+            {
+                "title": "Using Windows, OS X, and Linux in a GUI environment. Using Windows Command Line & PowerShell, OS X Terminal, and Linux Terminal"
+            }
+        ]
+    }
+]

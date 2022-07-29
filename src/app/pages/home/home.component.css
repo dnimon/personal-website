@@ -1,0 +1,10 @@
+@media print {
+    .download-item {
+        display: none;
+    }
+
+    a {
+        color: inherit !important;
+        text-decoration: none !important;
+    }
+}

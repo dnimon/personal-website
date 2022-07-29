@@ -1,0 +1,46 @@
+/* You can add global styles to this file, and also import other style files */
+
+@font-face {
+    font-family: 'IbarraRealNova';
+    src: url('/assets/IbarraRealNova-Regular.ttf');
+}   
+
+html, body { height: 100%; }
+body { margin: 0; font-family: IbarraRealNova, "Helvetica Neue", sans-serif; }
+
+.shadow {
+    box-shadow: 0 .5rem 1rem rgba(217, 194, 194, 0.15) !important;
+}
+
+.header {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 2.2rem;
+}
+
+.sub-header {
+    font-size: 1.3rem;
+}
+
+hr {
+    border-top: 1px solid !important;
+}
+
+@media print {
+    .mat-card-title, .mat-card-subtitle, .mat-card-content, .header {
+        color: black !important;
+    }
+
+    body, .mat-card {
+        background-color: white !important;
+    }
+
+    .mat-card-subtitle {
+        font-size: 20px !important;
+    }
+
+    .mat-card-content {
+        font-size: 22px !important;
+        line-height: 24px !important;
+    }
+}
