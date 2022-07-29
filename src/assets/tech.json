@@ -1,7 +1,7 @@
 [
     {
         "title": "Custom Frameworks",
-        "description": "Custom frameworks I built using a combination of open source projects and custom code, used as a basis for projects",
+        "description": "Custom frameworks built using a combination of open source projects and custom code, used as a basis for projects",
         "items": [
             {
                 "title": "Custom PHP framework for backend and rendering frontend, used for multiple websites"

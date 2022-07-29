@@ -10,7 +10,7 @@
                 "Built and maintain the PHP backend for a fit finding quiz. The quiz results are stored in an MySQL database, currently with over two million records",
                 "Built an extended version of the same quiz that also integrates with the API of a 3rd party photo capture/analysis service to obtain accurate measurements and retrieve/store the photos in an encrypted AWS S3 bucket",
                 "Built a Shopify 2.0 theme extension with a new quiz user interface using bootstrap and HTML to present a step-by-step wizard for the questions with validation",
-                "Built an integration of the new quiz with Amazon Mechanical Turk, to help automate data collection/analysis used to improve the fit algorithm, supporting both cross-sectional and longitudal studies",
+                "Built an integration of the new quiz with Amazon Mechanical Turk, to help automate data collection/analysis used to improve the fit algorithm, supporting both cross-sectional and longitudinal studies",
                 "Improved the integration of the marketing service Klaviyo, to help streamline the process of sending emails when a quiz was taken and to track more data about the customer for future emails",
                 "Designed solutions for issues with the 3rd party CMS portion of the client's store."
             ]
@@ -22,7 +22,7 @@
             "points": [
                 "Built original version for client several years ago using Flash framework, along with a PHP and Adobe Flash Media Server backend, while also supporting the open source Red5 video server",
                 "Created a new version built with Angular frontend, Node backend, Postgres database, Ionic Framework for mobile and desktop apps, and OpenVidu server leveraging WebRTC for the video conferencing",
-                "Created a theming engine for the frontend, seperating the logic of the page from it's presentation. This was used so that browser and mobile could share logic but have different user interfaces, bootstrap and angular material for desktop, Ionic Framework for mobile and desktop",
+                "Created a theming engine for the frontend, separating the logic of the page from it's presentation. This was used so that browser and mobile could share logic but have different user interfaces, bootstrap and angular material for desktop, Ionic Framework for mobile and desktop",
                 "Created for video conferencing an industry unique capability to share documents and/or on-demand video streams, resulting in higher quality with lower bandwidth demand compared to typical desktop sharing features (desktop sharing was also included)",
                 "Ionic Framework was used to build mobile and desktop apps, using that framework's user interface modules and build process - supported sharing interface logic between desktop, mobile, and browser environments leading to much faster development cycles compared to full native applications",
                 "Created mobile browser integration to support launching the app directly into a conference",
@@ -49,13 +49,13 @@
             "subtitle": "Remote patient monitoring",
             "description": "Health company in the remote patient monitoring space, with integrations with various bluetooth devices to track vitals.",
             "points": [
-                "Led a team of in-house developers within the company along with an outsourced overseas team, functioning as a liason with the stakeholders (customers, product managers, and the management team)",
+                "Led a team of in-house developers within the company along with an outsourced overseas team, functioning as a liaison with the stakeholders (customers, product managers, and the management team)",
                 "Managed issues and reports through JIRA, and used Github to help manage the code development",
                 "Built the service backend using Node & Express, with a database in MongoDB Atlas",
                 "Built the service frontend using Angular with Bootstrap and Angular Material components",
                 "Designed and built a job queuing system with associated API using Node forks and RabbitMQ to store the jobs",
                 "Built an API query validation framework",
-                "Built integrations with Twilio for sending text messages, automated calling when an alert had occured, and video conferencing",
+                "Built integrations with Twilio for sending text messages, automated calling when an alert had occurred, and video conferencing",
                 "Developed a system for inviting a 3rd party doctor to a two way video call with a patient, initiated via a push notification",
                 "Developed a set of APIs to support 3rd party queries retrieve customer health vitals measurements",
                 "Created a system for Github CI Actions (pull request creation/changes) automated tests of the backend, using Mocha and a in-memory MongoDB server",
@@ -66,7 +66,7 @@
             ]
         },
         {
-            "title": "Enterprice Resource Platform",
+            "title": "Enterprise Resource Platform",
             "subtitle": "Browser-based ERP application with drag/drop No-Code UI/UX",
             "noPhoto": true,
             "description": "The ERP application was built to be completely web-based and be user friendly, as an alternative to the older systems available on the market. It interfaced to multiple devices, including printers and scanners.",
@@ -106,8 +106,8 @@
             "subtitle": "CMS to control marketing displays remotely",
             "description": "Helps business with storefronts market their products through the use of various types of electronic displays, such as projectors or mounted televisions. I helped build a CMS and the application running on the control unit for the displays.",
             "points": [
-                "Managed a team of developers working for Mentortek to build a media CMS portal, functioned as liason between various stakeholders and the development team",
-                "Developed backend architecture using Laravel, a framework for PHP in conjunction with a frontend using React & React Router, coupled with Boostrap components",
+                "Managed a team of developers working for MentorTek to build a media CMS portal, functioned as liaison between various stakeholders and the development team",
+                "Developed backend architecture using Laravel, a framework for PHP in conjunction with a frontend using React & React Router, coupled with Bootstrap components",
                 "Built a React component wrapper around the React Data Table component, improving upon tech debt by reducing code duplication",
                 "Built a conversion system for videos uploaded by customers to run on the displays controlled by the CMS using two architectures - A python script designed to run FFmpeg & pushing the result to a S3 bucket, switching to AWS Elemental MediaConvert for increased performance",
                 "Designed the application running on the Linux-based control unit managing the media displays, initially using Electron, with HTML/Javascript and Node components",
@@ -121,9 +121,9 @@
             "title": "NoCode Platform",
             "subtitle": "Build mobile apps via drag/drop",
             "noPhoto": true,
-            "description": "Service that lets small businesses create a mobile app and have it published in the stoer without having to write any code, providing a friendly user interface to create content and configure their app.",
+            "description": "Service that lets small businesses create a mobile app and have it published in the store without having to write any code, providing a friendly user interface to create content and configure their app.",
             "points": [
-                "Managed a team of developers working for Mentortek to build a portal and mobile app framework",
+                "Managed a team of developers working for MentorTek to build a portal and mobile app framework",
                 "Used Meteor for the initial backend and frontend architecture, along with Xamarin for the mobile app framework",
                 "Built the mobile applications with a combination of Xamarin C# with a Webview running a mobile-friendly local copy of a portion of the portal code",
                 "Developed a push notification system as a tie between the mobile application and the backend using Azure Notification Hub coupled with a custom notification scheduling system",
@@ -138,7 +138,7 @@
             "subtitle": "Quotes for life insurance made in real time",
             "description": "Company requested a interactive branching form to help the customer find their best life insurance.",
             "points": [
-                "Managed a team of Mentortek developers to build the frontend and backend of an MVP web application to query potential customers providing them with real time life insurance quotes",
+                "Managed a team of MentorTek developers to build the frontend and backend of an MVP web application to query potential customers providing them with real time life insurance quotes",
                 "Developed an architecture using Python Flask, SQLAlchemy, Postgres, and React",
                 "Developed custom interfaces for 3rd party insurance underwriting and accounting APIs (SOAP/XML, etc.)",
                 "Supported client's effort to build an in-house, post-MVP team resulting in a successful transition"
@@ -159,7 +159,7 @@
                 "Developed a green screen control app, managing an off the shelf video composite application",
                 "Built an FFmpeg based python script to run on the backend servers to take a set of videos and efficiently combine them",
                 "Built a portal to allow for the marketing team and customers of the company to manage their content without needing to change code or build a new app - the backend for the portal was Python Flask with SqlAlchemy & Postgres, with a React frontend",
-                "Managed a team of Mentortek developers to add new features and update the portal, serving as a liason among all stakeholders",
+                "Managed a team of MentorTek developers to add new features and update the portal, serving as a liaison among all stakeholders",
                 "Helped manage on-site operations for New York City Superbowl experiential event",
                 "Maintained a legacy iOS Objective-C app which included device driver interfaces such a plug-in driver's license scanner"
             ]
@@ -212,7 +212,7 @@
             "points": [
                 "The project includes a user interface and a repository of build scripts for the various ports",
                 "The user interface is built in Rust, which shows the user the available ports, then automatically downloads the latest version, configures, and launches it",
-                "Created bash scripts for building the ports. These scripts handle downloading the source code from git repositories, building & configuring any depedencies, then configuring build tools, such as CMake or make, to build the port",
+                "Created bash scripts for building the ports. These scripts handle downloading the source code from git repositories, building & configuring any dependencies, then configuring build tools, such as CMake or make, to build the port",
                 "Created GitHub CI Actions to automatically build the UI and port projects when a pull request or commit is pushed. The CI process will then create GitHub releases for storing the build artifact",
                 "Handled issues and pull requests from users of the project",
                 "The latest version of the application has been downloaded over 2000 times",
@@ -238,7 +238,7 @@
             "points": [
                 "Installed and updated Wordpress plugins, including SEO and caching, to improve searching and performance",
                 "Updated the theme and pages due to requests",
-                "Built Xamarin Android & iOS Apps for a video catalog, to allow videos about the non-profit to be downloaded to be shown later without internet acccess. Built another version as a PWA in Javascript and HTML"
+                "Built Xamarin Android & iOS Apps for a video catalog, to allow videos about the non-profit to be downloaded to be shown later without internet access. Built another version as a PWA in Javascript and HTML"
             ]
         }
     ]
