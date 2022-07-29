@@ -4,25 +4,28 @@
         "description": "Custom frameworks built using a combination of open source projects and custom code, used as a basis for projects",
         "items": [
             {
-                "title": "Custom PHP framework for backend and rendering frontend"
+                "title": "Lightweight website stack based on PHP and MySQL"
             },
             {
-                "title": "Custom Javascript framework that allowed for shared code across backend and frontend, including shared database models"
+                "title": "Frameworks designed to simplify and localize the representation of domain knowledge using Node and Frontend Javascript, supporting PostgreSQL and MySQL. One framework was based on shared common objects between the frontend and backend, while the other confined all domain knowledge in the frontend, which greatly minimized the API footprint"
             },
             {
-                "title": "Python and OpenCV, with WebSockets, for OCR and device communication"
+                "title": "Framework using Python and OpenCV to support image capture and Optical Character Recognition services"
             },
             {
-                "title": "Custom kiosk application built with Chromium and Node, as a replacement for an Electron application, using WebSockets for communication, with multiple serial device interfaces, used for controlling media displays"
+                "title": "Custom embedded device framework built with Chromium and Node, abstracting CMS server and serial device communication used to manage kiosk media displays"
             },
             {
-                "title": "Typescript Node library built for communication with USB devices, that was integrated into a Node Express backend"
+                "title": "Framework for Node Express using a Typescript library abstracting USB embedded device communication/control"
             },
             {
-                "title": "Interfaces with FFmpeg for backend servers for video stitching, conversion, and chroma key. Created custom FFmpeg filter based on existing standalone chroma key library"
+                "title": "Reusable, lightweight abstractions of FFmpeg interface allowing Linux servers (Node and Python) to support video stitching, conversion, and chroma key extraction - including a custom C++ FFmpeg filter based on an existing chroma key library"
             },
             {
-                "title": "Linux-based BLE hub application, written in C++. Integrated MQTT client library and bluez Bluetooth communication"
+                "title": "Linux-based BLE hub framework, written in C++ which integrated libraries for MQTT clients and Bluez Bluetooth communication"
+            },
+            {
+                "title": "Angular based abstraction for code sharing of frontend event processing logic between responsive Bootstrap and Ionic mobile themes"
             }
         ]
     },
