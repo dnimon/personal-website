@@ -1,5 +1,5 @@
 [{
-    "title": "Contract Projects",
+    "title": "Commercial Projects",
     "items": [{
             "title": "Shopify Store Custom Development",
             "subtitle": "Personalized online store for women's pants",
@@ -72,7 +72,7 @@
             "description": "The ERP application was built to be completely web-based and be user friendly, as an alternative to the older systems available on the market. It interfaced to multiple devices, including printers and scanners.",
             "points": [
                 "Selected Angular for the frontend, Node & Express for the backend, and Postgres for the database",
-                "Built generic widgets using Angular components such that all UI elements and server API calls were expressed in a JSON format",
+                "Built generic widgets using Angular components such that all UI elements and server API calls were expressed in a JSON format, so that backend developers could build workflows without any Angular knowledge",
                 "Created a drag/drop editor for the JSON files, allowing someone with no technical knowledge to build custom table view pages and workflows",
                 "Developed a docker environment for the frontend and backend to run on, supporting direct USB device access through the docker interface",
                 "Evolved docker environment for Intel NUCs, including support for USB device hotplugging",
@@ -204,7 +204,7 @@
     ]
 },
 {
-    "title": "Special Projects",
+    "title": "Non-Commercial Projects",
     "items": [{
             "title": "Luxtorpeda",
             "subtitle": "Linux app for using source ports with Steam",

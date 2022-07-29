@@ -1,7 +1,34 @@
 [
     {
-        "title": "Frameworks",
-        "description": "Frameworks used in projects to build custom cloud and mobile applications",
+        "title": "Custom Frameworks",
+        "description": "Custom frameworks I built using a combination of open source projects and custom code, used as a basis for projects",
+        "items": [
+            {
+                "title": "Custom PHP framework for backend and rendering frontend, used for multiple websites"
+            },
+            {
+                "title": "Custom Javascript framework that allowed for shared code across backend and frontend, including shared database models, used by our team on a project"
+            },
+            {
+                "title": "Application built with Python and OpenCV, with WebSocket communication to payment terminal, to take screen captures of legacy POS system and retrieve total price"
+            },
+            {
+                "title": "Custom kiosk application built with Chromium and Node, as a replacement for an Electron application, using WebSockets for communication, with multiple serial device interfaces, used for controlling media displays"
+            },
+            {
+                "title": "Typescript Node library built for communication with USB devices, that was integrated into a Node Express backend"
+            },
+            {
+                "title": "Interfaces with FFmpeg for backend servers for video stitching, conversion, and chroma key. Created custom FFmpeg filter based on existing standalone chroma key library"
+            },
+            {
+                "title": "Linux-based BLE hub application, written in C++. Integrated MQTT client library and bluez Bluetooth communication"
+            }
+        ]
+    },
+    {
+        "title": "Commercial and Open Source Frameworks",
+        "description": "Commercial and open source frameworks used in projects to build custom cloud and mobile applications",
         "items": [
             {
                 "title": "Angular with Router, Material, and Bootstrap"
@@ -167,6 +194,9 @@
             },
             {
                 "title": "Team collaboration, including Slack and Mattermost"
+            },
+            {
+                "title": "Build tools, including CMake and Webpack"
             }
         ]
     },
