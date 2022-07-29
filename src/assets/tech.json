@@ -4,13 +4,13 @@
         "description": "Custom frameworks built using a combination of open source projects and custom code, used as a basis for projects",
         "items": [
             {
-                "title": "Custom PHP framework for backend and rendering frontend, used for multiple websites"
+                "title": "Custom PHP framework for backend and rendering frontend"
             },
             {
-                "title": "Custom Javascript framework that allowed for shared code across backend and frontend, including shared database models, used by our team on a project"
+                "title": "Custom Javascript framework that allowed for shared code across backend and frontend, including shared database models"
             },
             {
-                "title": "Application built with Python and OpenCV, with WebSocket communication to payment terminal, to take screen captures of legacy POS system and retrieve total price"
+                "title": "Python and OpenCV, with WebSockets, for OCR and device communication"
             },
             {
                 "title": "Custom kiosk application built with Chromium and Node, as a replacement for an Electron application, using WebSockets for communication, with multiple serial device interfaces, used for controlling media displays"
@@ -127,7 +127,7 @@
         "description": "Expertise in multiple high-level programming languages",
         "items": [
             {
-                "title": "Javascript (Node & Browser-based)"
+                "title": "Javascript (Node & Browser-based) & TypeScript"
             },
             {
                 "title": "PHP"
@@ -155,6 +155,9 @@
             },
             {
                 "title": "Swift"
+            },
+            {
+                "title": "Ruby"
             }
         ]
     },
@@ -184,9 +187,6 @@
         "description": "Tools used to help manage projects, including team collaboration on code and design",
         "items": [
             {
-                "title": "Git command line and GUI tools, such as Sublime Merge or Sourcetree. Created, managed, and reviewed Github pull requests"
-            },
-            {
                 "title": "JIRA and Redmine, managing issues and project progress"
             },
             {
@@ -197,6 +197,33 @@
             },
             {
                 "title": "Build tools, including CMake and Webpack"
+            }
+        ]
+    },
+    {
+        "title": "Development Tools",
+        "description": "Tools used to help development",
+        "items": [
+            {
+                "title": "Git command line and GUI tools, such as Sublime Merge or Sourcetree. Created, managed, and reviewed Github pull requests"
+            },
+            {
+                "title": "Visual Studio Code"
+            },
+            {
+                "title": "Visual Studio"
+            },
+            {
+                "title": "vi and nano"
+            },
+            {
+                "title": "Eclipse"
+            },
+            {
+                "title": "CI such as GitHub Actions"
+            },
+            {
+                "title": "Puppeteer"
             }
         ]
     },
