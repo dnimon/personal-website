@@ -12,6 +12,10 @@ body { margin: 0; font-family: IbarraRealNova, "Helvetica Neue", sans-serif; }
     box-shadow: 0 .5rem 1rem rgba(217, 194, 194, 0.15) !important;
 }
 
+.mat-card {
+    font-family: Roboto, Helvetica Neue, sans-serif;
+}
+
 .header {
     font-size: 2rem;
     font-weight: 600;
