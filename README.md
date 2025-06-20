@@ -23,3 +23,13 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Building Resume PDF
+
+```bash
+docker build -t rendercvlocal:1 -f Dockerfile.resume .
+```
+
+```bash
+docker run --rm --name portfolio-resume -it -v $PWD/resume:/data rendercvlocal:1 render --watch "David_Nimon_CV.yaml" 
+```
