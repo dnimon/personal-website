@@ -12,8 +12,16 @@ body { margin: 0; font-family: IbarraRealNova, "Helvetica Neue", sans-serif; }
     box-shadow: 0 .5rem 1rem rgba(217, 194, 194, 0.15) !important;
 }
 
-.mat-card {
-    font-family: Roboto, Helvetica Neue, sans-serif;
+.mdc-card {
+    font-family: Roboto, Helvetica Neue, sans-serif !important;
+    background-color: rgb(40, 40, 40) !important;
+    color: white !important;
+}
+
+.mat-mdc-card-subtitle {
+    color: white !important;
+    margin-top: .625rem !important;
+    margin-bottom: .625rem !important;
 }
 
 .header {
@@ -31,19 +39,19 @@ hr {
 }
 
 @media print {
-    .mat-card-title, .mat-card-subtitle, .mat-card-content, .header {
+    .mat-mdc-card-header, .mat-mdc-card-subtitle, .mat-mdc-card-content, .header {
         color: black !important;
     }
 
-    body, .mat-card {
+    body, .mat-mdc-card {
         background-color: white !important;
     }
 
-    .mat-card-subtitle {
+    .mat-mdc-card-subtitle {
         font-size: 20px !important;
     }
 
-    .mat-card-content {
+    .mat-mdc-card-content {
         font-size: 22px !important;
         line-height: 24px !important;
     }
