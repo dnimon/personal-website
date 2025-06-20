@@ -15,9 +15,10 @@ interface Technology {
 }
 
 @Component({
-  selector: 'app-tech',
-  templateUrl: './tech.component.html',
-  styleUrls: ['./tech.component.css']
+    selector: 'app-tech',
+    templateUrl: './tech.component.html',
+    styleUrls: ['./tech.component.css'],
+    standalone: false
 })
 export class TechComponent implements OnInit {
 
