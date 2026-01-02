@@ -1,0 +1,20 @@
+[{
+    "title": "",
+    "items": [{
+        "title": "METHOD AND SYSTEM FOR IMPROVED APPAREL FIT",
+        "subtitle": "",
+        "description": "A system and method implemented by a computer to determine the correct garment fit, where a fit is represented as a label which includes shape and size, and is suitable for mapping to garments manufactured appropriate to that representation. The system provides a user interface including a perception interface (presents and enables selection of user fit perception choices) and measurement interface (presents and enables options for capturing measurement data), measurement analysis server, fit analysis server. The measurement analysis server receives from the user interface running concurrently data communicated and analyzes the data to produce a measurement representation. The fit analysis server receives from the user interface running concurrently data communicated and analyzes the data to produce a fit representation. The method provided includes the steps of: (i) acquire perception representation, (ii) acquire measurement representation related to specific body Points of Measurement, and (iii) calculate fit representation using perception and measurement representations" 
+    }, {
+        "title": "PLATFORM AND RELATED PROCESS FOR PROVIDING PUSH NOTIFICATIONS VIA UNIQUE SUBSCRIBER APPLICATIONS",
+        "subtitle": "",
+        "description": "The disclosed principles provide a platform providing subscribers the ability to send custom push notifications. The platform is application-based, using mobile applications for use on a mobile device. Subscribers are provided a subscriber-level application from the platform. That application could be customized for the subscriber, or the subscriber may have a given amount of customization in order to personalize their own application. Users of a subscriber's unique application download the application via the platform. The subscriber will have administrative access within that application, via user name and password, and can coordinate to whom push notifications may be sent. The subscriber can designate individual targets to receive those push notifications, or may create groups for receiving the push notifications. Users of that subscriber's application could be allowed to shop for the subscriber's products via their application, and can receive push notifications sent via the platform." 
+    }, {
+        "title": "POINT OF SALE ADJUNCT CONTROL",
+        "subtitle": "",
+        "description": "An adjunct control system includes a point of sale workflow interface through which visual aspects of a point of sale workflow are received, an adjunct controller that processes the received visual aspects of the workflow to detect a transaction type and a transaction amount, and a credit card terminal interface through which the controller interacts with a credit card terminal to complete a transaction captured in the workflow." 
+    }, {
+        "title": "MULTIPLE CAMERA GROUP COLLABORATION SYSTEM AND METHOD",
+        "subtitle": "",
+        "description": "An improved group collaboration system providing control and management of multiple cameras for multiple users (members). The system includes a server for system management and a server for video data. Multiple clients, each having multiple cameras, may access the system simultaneously. Each client has a browser interface that allows a user to access multiple member cameras. Each selected camera is displayed simultaneously in the selecting user's interface. A bandwidth distribution algorithm provides quality of service for the multiple camera feeds." 
+    }]
+}]
