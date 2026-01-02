@@ -24,7 +24,10 @@ jobs:
       - name: Angular Build
         run: npm run build
       - name: Resume Build
-        run: docker run --rm --name portfolio-resume -v $PWD/resume:/data --entrypoint rendercv -w /data ghcr.io/rendercv/rendercv:v2.3 render "David_Nimon_CV.yaml"
+        run: |
+          mkdir resume/rendercv_output
+          chmod 777 resume/rendercv_output
+          docker run --rm --name portfolio-resume -v $PWD/resume:/data --entrypoint rendercv -w /data ghcr.io/rendercv/rendercv:v2.3 render "David_Nimon_CV.yaml"
       - name: Copy Resume
         run: cp resume/rendercv_output/David_Nimon_CV.pdf dist/personal-website/browser
       - name: Clean up
