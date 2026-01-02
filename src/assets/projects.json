@@ -1,6 +1,70 @@
 [{
     "title": "Commercial Projects",
     "items": [{
+            "title": "Ad Company Senior Elixir Development",
+            "subtitle": "Senior elixir development at Simpli.fi",
+            "description": "Worked on elixir applications that provided the backbone for the application",
+            "points": [
+                "Lead a project to add new features to an existing product offering, working with multiple teams to coordinate the required changes. Presented the changes that our team needed to do, creating tickets and documentation, and implemented major pieces of it, including using GCP services to transcode media, and providing multiple options to test with the 3rd party integrations. Worked with the teams to communicate changes and new needs.",
+                "Lead multiple projects for the team, including getting requirements from product management, creating tickets and documentation for the goals of the project, and paired with the team on the end goals and implementation. Worked with product management and staff engineers to help create user story mapping. Once the code was complemented, I worked with the team on creating runbooks for the deployment, and staging testing documentation.",
+                "Used multiple opportunities to pair with the team, to work on projects together, provide ideas for implementations, and to share knowledge with the team. I've also supported the staff engineer on our team, pairing with the team and figuring out solutions to issues all together.",
+                "Put together multiple presentations to share with engineers across the company for new features implemented or new uses of our toolset, like open source projects, Google Cloud, and Nomad.",
+                "Helped diagnose issues that were seen by customers, including building a test player for ads, finding the specific information in logs & databases, and finding a solution to the issues.",
+                "Migrated CI from Travis to Github Actions, including providing a private library for the company, so other teams and projects using elixir could leverage the same features, for running tests, code quality, and code coverage. As well, implemented a feature to run benchmarks and compare the differences from previous pull requests, and compare the resulting configuration from a pull request to the last release.",
+                "Created a docker image for local development, so all of the proper dependencies did not have to be installed on the development machine directly.",
+                "Wrote a new library for kafka dead letter queues in elixir, for a migration from RabbitMQ to Kafka. As well, tested and presented findings for various options for kafka consuming inside elixir. Provided mocks that can be used for testing the new kafka features.",
+                "Helped review code challenges and participated in interviews for new candidates. Helped mentor multiple new employees.",
+                "Dealt with on call pages, including diagnostics of the issue, communication with various parties, and brought the system back up. I've also provided support for others on call, including taking notes, taking over communication, or providing possible solutions.",
+                "Provided documentation on solutions for various tech debt, and helped get the changes to the proper team, or created tickets and implementation where it landed on our team.",
+                "Functional programming in Elixir, creating pull requests and responding to review requests, and working on various applications and libraries. Ensured that any followup tickets that may be needed, or deployment concerns, were well documented. Added tests for the new code, ensuring that code coverage was handled properly.",
+                "Worked with GCP instances and terragrunt & terraform, to create and update servers.",
+                "Worked with chef to update cookbooks with new application versions & new features, and deployed them.",
+                "Worked with Nomad to migrate applications from GCP instances to Nomad, including auto scaling, configuration migration, and right sizing. Created and maintained Docker images that are used for deployment. Provided examples on how to test on staging vs production. Helped implement public facing applications running inside nomad, behind GCP load balancers.",
+                "Worked with kafka, rabbitmq, and GCP buckets, to read data, move it to DuckDB for easy querying for diagnostics, and verified applications were working properly.",
+                "Worked with datadog for dashboards for metrics, including creating new graphs for new features and Nomad migration. Created new monitors for issues that should be alerted, and used notebooks for runbook creation.",
+                "Helped with building diagrams about the overall system and how the various applications communication with each other."
+            ]
+        }, {
+            "title": "Ad Company Full Stack Development",
+            "subtitle": "Senior Full stack development at Simpli.fi",
+            "description": "Worked on Ruby on Rails and Vue.js web application, that provided customer facing ability to add and maintain ads",
+            "points": [
+                "Worked on new features & modifications in both Vue.js and Ruby on Rails",
+                "Worked with team members, including other developers, and UI/UX designers, to design and build new features on the customer facing website.",
+                "Provided multiple examples on how parts of new features would look and feel, so that we could land on a specific implementation",
+                "Work on a UI made another project easier, with building it as reusable code",
+                "Helped diagnose issues on production and provided solutions"
+            ]
+        }, {
+            "title": "Benefits Company Development",
+            "subtitle": "Infrastructure and backend implementations",
+            "description": "Implemented infrastructure and backend APIs for a company providing information on employee's benefits.",
+            "points": [
+                "Implemented infrastructure using terraform to create AWS resources, including ECS, EC2, Cloudfront, RDS, Application Load Balancers, and tying all of them together",
+                "Created a secure infrastructure network, so the only part of the system publicly accessible is the cloudfront, as well as using AWS' WAF firewall",
+                "Created a Github Action workflow to allow other developers to create pull requests with terraform changes, see the plan updates in comments, and be able to apply with Github comments, making it easy to deploy new versions or scale up or down",
+                "Designed and implemented backend setup, including docker images, node.js project using itty-router, and various integrations to databases and 3rd party APIs, so that other developers have the ability to add new APIs and features",
+                "Created a logging system that writes to a Postgres database, with the ability to easily filter and find logs from various servers",
+                "Integrated with multiple off the shelf applications including Keycloak, Apprise, and Traefik to provide necessary features",
+                "Created an sftp server that multiple clients can send files to with different credentials, and setup webhooks so that the backend can receive the new files and import them into the system",
+                "Refactored some code to make into a sharable library that multiple internal applications could use",
+                "Implemented queue system based on Bullmq and redis, as well as using MQTT via Mosquttio to communicate between the UI and the backend",
+                "Integrated with Slack, Twilio, and Sendgrid to communicate with customers"
+            ]
+        }, {
+            "title": "Cybersecurity Company Development",
+            "subtitle": "Implemented high data volume applications",
+            "description": "Receiving and transmitting logs and useful security information, as well as providing technical support.",
+            "points": [
+                "Created golang applications that read from Azure Event Hubs or polled APIs, converted the data into the proper format, and stored the information in the company's kafka server",
+                "Helped maintain an application that consumed from those kafka topics and sent the information to elastic search, so the customers could see concerning logs",
+                "Created a script for customers to walk them through creating their first Azure Event Hub, and tying it to their VMs, so logs could be retrieved",
+                "Worked with the customers and other developers on debugging, support, and fixing issues",
+                "Converted various applications from running directly on the Linux OS to using Docker and Docker Compose, with ideas for future work towards making them highly available",
+                "Created a new application to poll MS365 for information and provided assistance in replacing an existing application, leading to better performance and results",
+                "Added telemetry metrics using OpenTelemetry for the applications so that metrics could be viewed and monitored inside Grafana"
+            ]
+        }, {
             "title": "Shopify Store Custom Development",
             "subtitle": "Personalized online store for women's pants",
             "description": "Online store specializing in women's pants. A major feature of the store is a quiz that the customer takes that determines their size and shape for ordering product. I help maintain an existing Shopify 1.0 store and have been working on a new Shopify 2.0 version of the store.",
