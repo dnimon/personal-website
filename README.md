@@ -27,9 +27,5 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Building Resume PDF
 
 ```bash
-docker build -t rendercvlocal:1 -f Dockerfile.resume .
-```
-
-```bash
-docker run --rm --name portfolio-resume -it -v $PWD/resume:/data rendercvlocal:1 render --watch "David_Nimon_CV.yaml" 
+docker run --rm -it --name portfolio-resume -v $PWD/resume:/data --entrypoint rendercv -w /data ghcr.io/rendercv/rendercv:v2.3 render --watch "David_Nimon_CV.yaml"
 ```

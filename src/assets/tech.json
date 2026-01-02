@@ -1,38 +1,17 @@
 [
     {
-        "title": "Custom Frameworks",
-        "description": "Custom frameworks built using a combination of open source projects and custom code, used as a basis for projects",
-        "items": [
-            {
-                "title": "Lightweight website stack based on PHP and MySQL"
-            },
-            {
-                "title": "Frameworks designed to simplify and localize the representation of domain knowledge using Node and Frontend Javascript, supporting PostgreSQL and MySQL. One framework was based on shared common objects between the frontend and backend, while the other confined all domain knowledge in the frontend, which greatly minimized the API footprint"
-            },
-            {
-                "title": "Framework using Python and OpenCV to support image capture and Optical Character Recognition services"
-            },
-            {
-                "title": "Custom embedded device framework built with Chromium and Node, abstracting CMS server and serial device communication used to manage kiosk media displays"
-            },
-            {
-                "title": "Framework for Node Express using a Typescript library abstracting USB embedded device communication/control"
-            },
-            {
-                "title": "Reusable, lightweight abstractions of FFmpeg interface allowing Linux servers (Node and Python) to support video stitching, conversion, and chroma key extraction - including a custom C++ FFmpeg filter based on an existing chroma key library"
-            },
-            {
-                "title": "Linux-based BLE hub framework, written in C++ which integrated libraries for MQTT clients and Bluez Bluetooth communication"
-            },
-            {
-                "title": "Angular based abstraction for code sharing of frontend event processing logic between responsive Bootstrap and Ionic mobile themes"
-            }
-        ]
-    },
-    {
         "title": "Commercial and Open Source Frameworks",
         "description": "Commercial and open source frameworks used in projects to build custom cloud and mobile applications",
         "items": [
+            {
+                "title": "Elixir Phoenix & Broadway"
+            },
+            {
+                "title": "Vue.js"
+            },
+            {
+                "title": "Ruby on Rails"
+            },
             {
                 "title": "Angular with Router, Material, and Bootstrap"
             },
@@ -73,7 +52,10 @@
         "description": "Commercial services used to deploy major features or entire infrastructure for applications",
         "items": [
             {
-                "title": "AWS - EC2, S3, Lamdba, CloudWatch, VPC, RDS, Mechanical Turk, Elemental MediaConvert"
+                "title": "GCP - Instances, Memorystore, Load Balancers"
+            },
+            {
+                "title": "AWS - EC2, ECS, Cloudfront, S3, Lamdba, CloudWatch, VPC, RDS, Mechanical Turk, Elemental MediaConvert"
             },
             {
                 "title": "Shopify"
@@ -83,9 +65,6 @@
             },
             {
                 "title": "MongoDB Atlas"
-            },
-            {
-                "title": "Liquid Web"
             },
             {
                 "title": "Rackspace"
@@ -101,6 +80,9 @@
             },
             {
                 "title": "Twilio - Text Messaging, Calls, Video Conferencing"
+            },
+            {
+                "title": "OpenAI API for User Prompts"
             },
             {
                 "title": "Firebase Cloud Messaging"
@@ -129,6 +111,12 @@
         "title": "Languages",
         "description": "Expertise in multiple high-level programming languages",
         "items": [
+            {
+                "title": "Elixir"
+            },
+             {
+                "title": "Golang"
+            },
             {
                 "title": "Javascript (Node & Browser) & TypeScript"
             },
@@ -189,11 +177,29 @@
         ]
     },
     {
+        "title": "Data Systems",
+        "description": "Separate from databases for queuing or large distributed data systems",
+        "items": [
+            {
+                "title": "Kafka"
+            },
+            {
+                "title": "RabbitMQ"
+            },
+            {
+                "title": "Elastic Search"
+            },
+            {
+                "title": "REdis"
+            }
+        ]
+    },
+    {
         "title": "Project Tools",
         "description": "Tools used to help manage projects, including team collaboration on code and design",
         "items": [
             {
-                "title": "JIRA and Redmine, managing issues and project progress"
+                "title": "JIRA and Confluence, as well as Redmine, managing issues and project progress"
             },
             {
                 "title": "Lucidchart, supplementing technical documentation including UML and architecture/database diagrams"
@@ -238,7 +244,13 @@
         "description": "Knowledge in server and infrastructure management",
         "items": [
             {
-                "title": "Managing AWS Instances with Linux, installing packages or Docker environments, and maintenance"
+                "title": "Managing GCP instances with terragrunt/terraform"
+            },
+            {
+                "title": "Managing Nomad jobs, including migration applications to Nomad, adding public facing web apps, and implementing auto scaling"
+            },
+            {
+                "title": "Managing AWS Instances with Linux, installing packages or Docker environments, and maintenance. Both with the UI and with terraform"
             },
             {
                 "title": "Managing on-premises physical systems with Linux-based servers"
@@ -260,6 +272,36 @@
             },
             {
                 "title": "Using Windows, OS X, and Linux in a GUI environment. Using Windows Command Line & PowerShell, OS X Terminal, and Linux Terminal"
+            }
+        ]
+    },
+    {
+        "title": "Custom Frameworks",
+        "description": "Custom frameworks built using a combination of open source projects and custom code, used as a basis for projects",
+        "items": [
+            {
+                "title": "Lightweight website stack based on PHP and MySQL"
+            },
+            {
+                "title": "Frameworks designed to simplify and localize the representation of domain knowledge using Node and Frontend Javascript, supporting PostgreSQL and MySQL. One framework was based on shared common objects between the frontend and backend, while the other confined all domain knowledge in the frontend, which greatly minimized the API footprint"
+            },
+            {
+                "title": "Framework using Python and OpenCV to support image capture and Optical Character Recognition services"
+            },
+            {
+                "title": "Custom embedded device framework built with Chromium and Node, abstracting CMS server and serial device communication used to manage kiosk media displays"
+            },
+            {
+                "title": "Framework for Node Express using a Typescript library abstracting USB embedded device communication/control"
+            },
+            {
+                "title": "Reusable, lightweight abstractions of FFmpeg interface allowing Linux servers (Node and Python) to support video stitching, conversion, and chroma key extraction - including a custom C++ FFmpeg filter based on an existing chroma key library"
+            },
+            {
+                "title": "Linux-based BLE hub framework, written in C++ which integrated libraries for MQTT clients and Bluez Bluetooth communication"
+            },
+            {
+                "title": "Angular based abstraction for code sharing of frontend event processing logic between responsive Bootstrap and Ionic mobile themes"
             }
         ]
     }

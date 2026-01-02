@@ -1,125 +1,101 @@
 cv:
   name: David Nimon
-  location: Location
-  email: john.doe@example.com
-  phone: +1-609-999-9995
-  website:
+  location: Allen, Texas
+  email: david.nimon@gmail.com
+  phone: +1-214-649-8291
+  website: https://davidnimon.com
   social_networks:
     - network: LinkedIn
-      username: john.doe
-    - network: GitHub
-      username: john.doe
+      username: david-nimon
   sections:
-    welcome_to_RenderCV!:
-      - '[RenderCV](https://rendercv.com) is a Typst-based CV framework designed for academics and engineers, with Markdown syntax support.'
-      - Each section title is arbitrary. Each section contains a list of entries, and there are 7 different entry types to choose from.
+    summary:
+      - Software innovator and leader with over 10 years of full-stack, mobile, functional, and embedded technology experience, with roles encompassing architecture, detailed design and code - usually, with a view towards developing or leveraging reusable frameworks.
     education:
-      - institution: Stanford University
-        area: Computer Science
-        degree: PhD
-        date:
-        start_date: 2023-09
-        end_date: present
-        location: Stanford, CA, USA
-        summary:
-        highlights:
-          - Working on the optimization of autonomous vehicles in urban environments
-      - institution: Boğaziçi University
-        area: Computer Engineering
+      - institution: Tarleton State University
+        area: Computer Information Systems
         degree: BS
         date:
-        start_date: 2018-09
-        end_date: 2022-06
-        location: Istanbul, Türkiye
-        summary:
-        highlights:
-          - 'GPA: 3.9/4.0, ranked 1st out of 100 students'
-          - 'Awards: Best Senior Project, High Honor'
+        end_date: 2014
+        location: Fort Worth, Texas
     experience:
-      - company: Company C
-        position: Summer Intern
+      - company: Simpli.fi
         date:
-        start_date: 2024-06
-        end_date: 2024-09
-        location: Livingston, LA, USA
-        summary:
-        highlights:
-          - Developed deep learning models for the detection of gravitational waves in LIGO data
-          - Published [3 peer-reviewed research papers](https://example.com) about the project and results
-      - company: Company B
-        position: Summer Intern
-        date:
-        start_date: 2023-06
-        end_date: 2023-09
-        location: Ankara, Türkiye
-        summary:
-        highlights:
-          - Optimized the production line by 15% by implementing a new scheduling algorithm
-      - company: Company A
-        position: Summer Intern
-        date:
-        start_date: 2022-06
-        end_date: 2022-09
-        location: Istanbul, Türkiye
-        summary:
-        highlights:
-          - Designed an inventory management web application for a warehouse
-    projects:
-      - name: '[Example Project](https://example.com)'
-        date:
-        start_date: 2024-05
+        start_date: 2022
         end_date: present
-        location:
-        summary: A web application for writing essays
+        position: Senior Elixir Developer
+        location: Fort Woth, Texas
+        summary: Simpli.fi is an ad company providing customers the ability to upload their ad content and sending those ads to exchanges for showing on websites, ad-supported streaming, and more. I have been promoted from a Senior Full Stack Developer (SE3), working on the user facing website and backend, to Senior Elixir Developer (SE4) in 2023, working on high volume server load for the ad system, while continuing to contribute to the full stack project where needed.
         highlights:
-          - Launched an [iOS app](https://example.com) in 09/2024 that currently has 10k+ monthly active users
-          - The app is made open-source (3,000+ stars [on GitHub](https://github.com))
-      - name: '[Teaching on Udemy](https://example.com)'
-        date: Fall 2023
-        start_date:
-        end_date:
-        location:
-        summary:
+         - Lead a project to add new features to an existing product offering, working with multiple teams to coordinate the required changes. Presented the changes that our team needed to do, creating tickets and documentation, and implemented major pieces of it, including using GCP services to transcode media, and providing multiple options to test with the 3rd party integrations. Worked with the teams to communicate changes and new needs. Once the code was complemented, I worked with the team on creating runbooks for the deployment, and staging testing documentation.
+         - Used multiple opportunities to pair with the team, to work on projects together, provide ideas for implementations, and to share knowledge with the team. I've also supported the staff engineer on our team, pairing with the team and figuring out solutions to issues all together, and helped lead multiple projects.
+         - Put together multiple presentations to share with engineers across the company for new features implemented or new uses of our toolset, like open source projects, Google Cloud, and Nomad.
+         - Helped diagnose issues that were seen by customers, including building a test player for ads, finding the specific information in logs & databases, and finding a solution to the issues.
+         - Migrated CI from Travis to Github Actions, including providing a private library for the company, so other teams and projects using elixir could leverage the same features, for running tests, code quality, and code coverage. As well, implemented a feature to run benchmarks and compare the differences from previous pull requests, and compare the resulting configuration from a pull request to the last release.
+         - Created a docker image for local development, so all of the proper dependencies did not have to be installed on the development machine directly.
+         - Wrote a new library for kafka dead letter queues in elixir, for a migration from RabbitMQ to Kafka. As well, tested and presented findings for various options for kafka consuming inside elixir. Provided mocks that can be used for testing the new kafka features.
+         - Helped review code challenges and participated in interviews for new candidates. Helped mentor multiple new employees.
+         - Dealt with on call pages, including diagnostics of the issue, communication with various parties, and brought the system back up. I've also provided support for others on call, including taking notes, taking over communication, or providing possible solutions.
+         - Provided documentation on solutions for various tech debt, and helped get the changes to the proper team, or created tickets and implementation where it landed on our team.
+         - Functional programming in Elixir, creating pull requests and responding to review requests, and working on various applications and libraries. Ensured that any followup tickets that may be needed, or deployment concerns, were well documented. Added tests for the new code, ensuring that code coverage was handled properly.
+         - Worked with GCP instances and terragrunt & terraform, to create and update servers, as well as Chef to update applications and deploy them.
+         - Worked with Nomad to migrate applications from GCP instances to Nomad, including auto scaling, configuration migration, and right sizing. Created and maintained Docker images that are used for deployment. Provided examples on how to test on staging vs production. Helped implement public facing applications running inside nomad, behind GCP load balancers.
+         - Worked with kafka, rabbitmq, and GCP buckets, to read data, move it to DuckDB for easy querying for diagnostics, and verified applications were working properly.
+         - Worked with datadog for dashboards for metrics, including creating new graphs for new features and Nomad migration. Created new monitors for issues that should be alerted, and used notebooks for runbook creation.
+         - Helped with building diagrams about the overall system and how the various applications communication with each other. 
+         - Worked with team members, including other developers, and UI/UX designers, to design and build new features on the customer facing website. Provided multiple examples on how parts of the new UI would look and feel, so that we could land on a specific implementation.
+         - Work on a UI made another project easier, with building it as reusable code.
+      - company: MentorTek
+        date:
+        start_date: 2010
+        end_date: 2022
+        position: Principal Software Engineer
+        location: Dallas, Texas
+        summary: MentorTek is a contract development company providing software, hardware, signal processing, and data analysis resources with a vision to help shape the future of small to mid-size businesses. A sampling of my projects showcasing many architectures is below
         highlights:
-          - Instructed the "Statics" course on Udemy (60,000+ students, 200,000+ hours watched)
+          - Developed backend & infrastructure for a benefit company, including servers, UI hosting, and serverless architecture.
+          - Developed high data volume applications for a cybersecurity company to receive logs from various sources and put them into a common database, using kafka & elastic search.
+          - Developed an extensive social media platform, including video-conferencing with document/desktop sharing.
+          - Managed a team of developers to build a remote patient vitals monitoring solution. Developed 3rd-party health system API integration, supportive of doctor to patient communication.
+          - Developed migration strategy for a customized Shopify store from their existing 1.0 platform/themes to a new 2.0 theme. Assumed responsibility for development and maintenance of their current production store.
+          - Served as manager, architect, and developer for a cloud focused Enterprise Resource Platform (ERP). Provided an industry unique No-Code/Low-Code method of ERP user workflow creation.
+          - Served as manager, architect, and developer for a cloud based Content Management System designed to control remote marketing media displays along with the embedded application required for the media display units.
+          - Developed a framework and set of mobile applications targeted for large experiential events. Supported onsite operations for Superbowl New York City.
+          - Developed a client application for a popular commercial VPN product supporting iOS, Android, Windows and Mac, all sharing common code for UI and VPN services.
+          - Developed e-commerce payment gateway integrations as part of various projects, including Stripe, PayPal, CardConnect, and Authorize.Net.
+          - Managed a team and developed a cloud service that provided a drag/drop method of creating mobile applications. Developed automations for publishing the applications created by the service into the Apple and Google stores, using Fastlane for automation.
+    responsibilities:
+      - bullet: Architect, design, code, and debug new software applications
+      - bullet: Maintain, upgrade and improve the performance of existing software
+      - bullet: Recruit, train and supervise software engineers
+      - bullet: Manage project client relationships and their project requirements, as well as cross-team communication
+      - bullet: Contribute to and/or leverage relevant open source projects
     skills:
-      - label: Programming
-        details: Proficient with Python, C++, and Git; good understanding of Web, app development, and DevOps
-      - label: Mathematics
-        details: Good understanding of differential equations, calculus, and linear algebra
+      - label: Frameworks
+        details: Elixir Phoenix, Vue.js, Ruby on Rails, Angular & Material, Node & Express, Docker, Ionic, Laravel, Flask, React, Xamarin, .NET & .NET Core, Wordpress, Custom
+      - label: Services & Integrations
+        details: GCP, AWS, Shopify, Heroku, MongoDB Atlas, Sendgrid, Twilio, Payment Gateways, Redox & Xealth, Azure Notification Hubs, Klaviyo
       - label: Languages
-        details: 'English (fluent, TOEFL: 118/120), Turkish (native)'
-    publications:
-      - title: 3D Finite Element Analysis of No-Insulation Coils
-        authors:
-          - Frodo Baggins
-          - '***John Doe***'
-          - Samwise Gamgee
-        doi: 10.1109/TASC.2023.3340648
-        url:
-        journal:
-        date: 2004-01
-    extracurricular_activities:
-      - bullet: 'There are 7 unique entry types in RenderCV: *BulletEntry*, *TextEntry*, *EducationEntry*, *ExperienceEntry*, *NormalEntry*, *PublicationEntry*, and *OneLineEntry*.'
-      - bullet: Each entry type has a different structure and layout. This document demonstrates all of them.
-    numbered_entries:
-      - number: This is a numbered entry.
-      - number: This is another numbered entry.
-      - number: This is the third numbered entry.
-    reversed_numbered_entries:
-      - reversed_number: This is a reversed numbered entry.
-      - reversed_number: This is another reversed numbered entry.
-      - reversed_number: This is the third reversed numbered entry.
+        details: Elixir, Golang, Javascript/TypeScript, PHP, Python, C#, Java, Rust, C++ & C, Objective-C, Swift, Ruby, HTML & CSS
+      - label: Databases
+        details: Postgres, MySQL, MongoDB, SQLite, ORM and Query Builders
+      - label: Project Tools
+        details: JIRA & Confluence, Redmine, Lucidchart, Slack, Webpack, CMake
+      - label: Development Tools
+        details: Git, Visual Studio Code, Visual Studio, vi and nano, Eclipse, GitHub Actions, Puppeteer
+      - label: IT Administration
+        details: Managing instances with terragrunt/terraform, Nomad jobs, Managing AWS & GCP Instances, Managing physical systems, Database management, VPN remote management, Small business network setup, OS GUI & Terminal
+      - label: Leadership
+        details: Collaboration, Communication, Planning, Architecture, Training, Agile Development, Object Design, Functional Programming
 design:
-  theme: classic
+  theme: engineeringclassic
   page:
     size: us-letter
-    top_margin: 2cm
-    bottom_margin: 2cm
-    left_margin: 2cm
-    right_margin: 2cm
-    show_page_numbering: true
-    show_last_updated_date: true
+    top_margin: 1cm
+    bottom_margin: 1cm
+    left_margin: 1cm
+    right_margin: 1cm
+    show_page_numbering: false
+    show_last_updated_date: false
   colors:
     text: rgb(0, 0, 0)
     name: rgb(0, 79, 144)
@@ -128,48 +104,52 @@ design:
     links: rgb(0, 79, 144)
     last_updated_date_and_page_numbering: rgb(128, 128, 128)
   text:
-    font_family: Source Sans 3
+    font_family: Raleway
     font_size: 10pt
     leading: 0.6em
     alignment: justified
     date_and_location_column_alignment: right
   links:
     underline: false
-    use_external_link_icon: true
+    use_external_link_icon: false
   header:
-    name_font_family: Source Sans 3
-    name_font_size: 30pt
-    name_bold: true
+    name_font_family: Raleway
+    name_font_size: 20pt
+    name_bold: false
+    small_caps_for_name: false
     photo_width: 3.5cm
-    vertical_space_between_name_and_connections: 0.7cm
-    vertical_space_between_connections_and_first_section: 0.7cm
+    vertical_space_between_name_and_connections: 0.3cm
+    vertical_space_between_connections_and_first_section: 0.3cm
     horizontal_space_between_connections: 0.5cm
-    connections_font_family: Source Sans 3
+    connections_font_family: Raleway
     separator_between_connections: ''
     use_icons_for_connections: true
-    alignment: center
+    use_urls_as_placeholders_for_connections: false
+    make_connections_links: true
+    alignment: left
   section_titles:
-    type: with-parial-line
-    font_family: Source Sans 3
+    type: with-partial-line
+    font_family: Raleway
     font_size: 1.4em
-    bold: true
+    bold: false
     small_caps: false
     line_thickness: 0.5pt
-    vertical_space_above: 0.5cm
-    vertical_space_below: 0.3cm
+    vertical_space_above: 0.25cm
+    vertical_space_below: 0.25cm
   entries:
     date_and_location_width: 4.15cm
     left_and_right_margin: 0.2cm
     horizontal_space_between_columns: 0.1cm
-    vertical_space_between_entries: 1.2em
+    vertical_space_between_entries: 0.6em
     allow_page_break_in_sections: true
     allow_page_break_in_entries: true
     short_second_row: false
     show_time_spans_in: []
   highlights:
     bullet: •
-    top_margin: 0.25cm
-    left_margin: 0.4cm
+    nested_bullet: '-'
+    top_margin: 0.2cm
+    left_margin: 0cm
     vertical_space_between_highlights: 0.25cm
     horizontal_space_between_bullet_and_highlight: 0.5em
     summary_left_margin: 0cm
@@ -177,31 +157,25 @@ design:
     one_line_entry:
       template: '**LABEL:** DETAILS'
     education_entry:
-      main_column_first_row_template: '**INSTITUTION**, AREA'
+      main_column_first_row_template: '**INSTITUTION**, AREA -- LOCATION'
       degree_column_template: '**DEGREE**'
       degree_column_width: 1cm
       main_column_second_row_template: |-
         SUMMARY
         HIGHLIGHTS
-      date_and_location_column_template: |-
-        LOCATION
-        DATE
+      date_and_location_column_template: DATE
     normal_entry:
-      main_column_first_row_template: '**NAME**'
+      main_column_first_row_template: '**NAME** -- **LOCATION**'
       main_column_second_row_template: |-
         SUMMARY
         HIGHLIGHTS
-      date_and_location_column_template: |-
-        LOCATION
-        DATE
+      date_and_location_column_template: DATE
     experience_entry:
-      main_column_first_row_template: '**COMPANY**, POSITION'
+      main_column_first_row_template: '**POSITION**, COMPANY -- LOCATION'
       main_column_second_row_template: |-
         SUMMARY
         HIGHLIGHTS
-      date_and_location_column_template: |-
-        LOCATION
-        DATE
+      date_and_location_column_template: DATE
     publication_entry:
       main_column_first_row_template: '**TITLE**'
       main_column_second_row_template: |-
@@ -253,6 +227,6 @@ locale:
     - November
     - December
 rendercv_settings:
-  date: '2025-06-20'
+  date: '2025-12-17'
   render_command:
   bold_keywords: []
