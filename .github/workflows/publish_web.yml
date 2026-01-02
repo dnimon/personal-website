@@ -29,7 +29,7 @@ jobs:
           chmod 777 resume/rendercv_output
           docker run --rm --name portfolio-resume -v $PWD/resume:/data --entrypoint rendercv -w /data ghcr.io/rendercv/rendercv:v2.3 render "David_Nimon_CV.yaml"
       - name: Copy Resume
-        run: cp resume/rendercv_output/David_Nimon_CV.pdf dist/personal-website/browser
+        run: cp resume/rendercv_output/David_Nimon_CV.pdf dist/personal-website/browser/assets
       - name: Clean up
         run: pushd dist/personal-website/browser && cp index.html 404.html && popd
       - name: Publish
